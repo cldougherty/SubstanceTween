@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 794024591b991de4aa3ed49bd0717470
-timeCreated: 1483832085
-licenseType: Free
+timeCreated: 1484357892
+licenseType: Pro
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
@@ -515,17 +515,13 @@ SubstanceImporter:
       wrapMode: 0
     textureAssignments:
     - shaderProp:
-        name: _MainTex
-      material: {instanceID: 0}
-      baseUID: 2681727710
-    - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
       baseUID: 2681727708
     - shaderProp:
-        name: _ParallaxMap
+        name: _MainTex
       material: {instanceID: 0}
-      baseUID: 2620360859
+      baseUID: 2681727710
     - shaderProp:
         name: _EmissionMap
       material: {instanceID: 0}
@@ -534,9 +530,19 @@ SubstanceImporter:
         name: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 2681727704
+    - shaderProp:
+        name: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 2620360859
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+    - serializedVersion: 2
+      buildTarget: Standalone
       textureWidth: 512
       textureHeight: 512
       textureFormat: 0

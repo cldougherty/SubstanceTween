@@ -1,5 +1,5 @@
 SubstanceTween v2.3
-1/9/2017
+1/15/2017
 Chris Dougherty
 chris.ll.dougherty@gmail.com
 chris.dougherty@students.aie.edu.au
@@ -11,7 +11,9 @@ You can Write variables to XML files and read from them as well.
 When you are done creating your animated object you can save the object as a Prefab for future use.
 
 Notes:
-• This tool is meant for simple/optimized materials. if you have a giant Substance Material that is 2048-2048 or has many exposed parameters near the beginning of the input graph in Substance Designer the tool will lag. There are some materials that I have made and included in this project that are not meant to be used by this tool(Sand,Rock) unless you change them to 1024x1024 . I have included them as examples.  
+
+* This tool was made for Unity 5.4 and 5.5. It works with 5.3.2(The version I started with) however the FPS is low and the tool can crash.
+*  This tool is meant for simple/optimized materials. if you have a giant Substance Material that is 2048-2048 or has many exposed parameters near the beginning of the input graph in Substance Designer the tool will lag. There are some materials that I have made and included in this project that are not meant to be used by this tool(Sand,Rock) unless you change them to 1024x1024 . I have included them as examples.
 • Allegorithmic has a video about optimizing substances for unity: https://www.youtube.com/watch?v=VnhIDRcfAWA
 • The Rock material has a Boolean (true/false) called Surface Mode in the inspector. you will not be able to see the difference in some variables depending on which mode it is set to. 
 • Expect read XML files to break when using different versions of this tool
@@ -66,6 +68,8 @@ Bugs/Possible Bugs:
 • Sometimes get bugs when I resize the tool. “SUCCEEDED(hr)” and 
    	“rc.right == m_GfxWindow->GetWidth() && rc.bottom == m_GfxWindow->GetHeight()” 
        This error does not affect the tool in any way.
+* In Unity 5.5 I get a error when I start up the tool “dynamic_array: assign data may not be data from the dynamic_array itself.” This error does not affect the tool in any way.
+       
 
    
 Changelog:
@@ -90,6 +94,8 @@ Changelog:
 * Added buttons to select the transitions you have created as well as a button to delete them.
 * When you create a prefab it saves the animation time. 
 * Added Feature/ Fixed bug: When Writing xml files it would add parameter types with no range ($outputSize, $pixelSize, $RandomSeed) this could slow down your animation and make it choppy (loading a 4096x4096 animation on a material that is meant to be 1024x1024 ) Saving these parameters could  be useful so I made a toggle button called ‘Save Output Parameters’
+* Added support for Unity 5.3. In 5.4 and 5.5 I use RebuildTextures() instead of RebuildTexturesImmediately() when updating materials because it is faster.  
+RebuildTextures() is not supported in 5.3 when I use it in Update() so I made a conditional statement that detects what version of Unity you are using.  
 
 2.2
 • Added a button for debug information (lists changes for materials, saves information about written/read Xml files and created prefabs).
@@ -100,6 +106,7 @@ Changelog:
 • Made it so you cannot open the tool from Window>SubstanceTween if you have nothing selected or if the object does not have the required component(Renderer/ProceduralMaterial).
 
 2.1
+• Updated from Unity 5.3 to 5.4
 • Remade XML read/write (Now using save box instead of manually typing in file path)
 • Remade transition/reset buttons
 • Remade Prefab button (Now with save box and you are able to name prefabs)

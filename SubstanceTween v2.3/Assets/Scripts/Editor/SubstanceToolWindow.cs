@@ -12,17 +12,17 @@ using UnityEditorInternal;
 using System.Linq;
 using System.Runtime.Serialization;
 
-public class SubstanceToolWindow :  EditorWindow   {
-	//SubstanceTween Ver 2.3 - 1/9/2016 
+public class SubstanceToolWindow : EditorWindow  {
+	//SubstanceTween Ver 2.3 - 1/15/2016 
 	//Written by: Chris Dougherty
 	//https://www.linkedin.com/in/archarchaic
 	//chris.ll.dougherty@gmail.com
 	//https://www.artstation.com/artist/archarchaic
 	private GameObject currentSelection;
 	public Renderer rend;
-	public bool UpdatingStartVariables = true , saveDefaultSubstanceVars = true, rebuildSubstanceImmediately = false, gameIsPaused = false,  substanceLerp = false, saveParametersWithoutRange = true, resettingValuesToDefault = true;
+	public bool UpdatingStartVariables = true , saveDefaultSubstanceVars = true, rebuildSubstanceImmediately = false, gameIsPaused = false, substanceLerp = false, saveParametersWithoutRange = true, resettingValuesToDefault = true;
 	public ProceduralMaterial substance, defaultSubstance;
-	private ProceduralPropertyDescription[] objProperties,  defaultObjProperties;
+	private ProceduralPropertyDescription[] objProperties, defaultObjProperties;
 	public ObjProperty lerp1Description, lerp2Description, Description;
 	public List<ObjProperty> lerpDescriptions = new List<ObjProperty>();
 	public List<float> defaultMatFloatValues = new List<float>();
@@ -52,7 +52,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 
 	private void OnFocus()
 	{
-		if (currentSelection  == null && Selection.activeGameObject) 
+		if (currentSelection == null && Selection.activeGameObject) 
 		{
 			currentSelection = Selection.activeGameObject;
 			if (currentSelection)
@@ -64,7 +64,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				UpdatingStartVariables = false;
 				selectedStartupMaterials.Add(substance); // First selected object material 
 				selectedStartupGameObjects.Add(currentSelection); // First selected game object
-				DebugStrings.Add ("First object selected: " + currentSelection + " Selected objects material  name: " + rend.sharedMaterial.name);
+				DebugStrings.Add ("First object selected: " + currentSelection + " Selected objects material name: " + rend.sharedMaterial.name);
 			}
 			if (substance)
 			substance.RebuildTextures();
@@ -84,8 +84,8 @@ public class SubstanceToolWindow :  EditorWindow   {
 				rend = currentSelection.GetComponent<Renderer>();
 			if (rend)
 			{
-				DebugStrings.Add("Selected: " + currentSelection  + "Selected objects material  name: " + rend.sharedMaterial.name); 
-				Debug.Log("Selected: " + currentSelection  + "Selected objects material  name: " + rend.sharedMaterial.name);
+				DebugStrings.Add("Selected: " + currentSelection + "Selected objects material name: " + rend.sharedMaterial.name); 
+				Debug.Log("Selected: " + currentSelection + "Selected objects material name: " + rend.sharedMaterial.name);
 				Debug.Log("Material has:" + objProperties.Count());
 			}
 			if (selectedStartupMaterials.Count >0)
@@ -95,7 +95,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				substance = rend.sharedMaterial as ProceduralMaterial;
 				for(int i = 0; i < selectedStartupMaterials.Count; i++) // goes through every material that you have selected in the past 
 				{
-					if (currentSelection.name  == selectedStartupGameObjects[i].name) // if currently selected object name = one of the gameobjects that you have already selected before
+					if (currentSelection.name == selectedStartupGameObjects[i].name) // if currently selected object name = one of the gameobjects that you have already selected before
 					{
 						substance = selectedStartupMaterials[i];
 						materialExists = true; // object has already been selected before 
@@ -103,7 +103,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 					}
 						DebugStrings.Add("Material " + i + ": " + selectedStartupMaterials[i]);
 				}
-			if (!materialExists) //Object has not been selected before so save all of the current object variables as this object's default variables  
+			if (!materialExists) //Object has not been selected before so save all of the current object variables as this object's default variables 
 				{
 					if (rend)
 						substance = rend.sharedMaterial as ProceduralMaterial;
@@ -119,11 +119,11 @@ public class SubstanceToolWindow :  EditorWindow   {
 					AddProceduralVariablesToList(defaultSubstanceObjProperties[defaultSubstanceIndex]);
 					defaultSubstanceObjProperties[defaultSubstanceIndex].stdVector2.Add(MainTexOffset);
 					defaultSubstanceObjProperties[defaultSubstanceIndex].stdColor.Add(emissionInput);
-					DebugStrings.Add("Default substance material "  + defaultSubstanceIndex + ": " +  defaultSubstanceObjProperties[defaultSubstanceIndex].PropertyMaterialName );
+					DebugStrings.Add("Default substance material " + defaultSubstanceIndex + ": " + defaultSubstanceObjProperties[defaultSubstanceIndex].PropertyMaterialName );
 					defaultSubstanceIndex++;
 				}
 			}
-			if (lerp1Description != null   && (lerp1Description.PropertyName.Count > 0 && lerp2Description == null))
+			if (lerp1Description != null && (lerp1Description.PropertyName.Count > 0 && lerp2Description == null))
 			{
 				lerp1Description.PropertyName.Clear(); lerp1Description.PropertyFloat.Clear(); lerp1Description.PropertyColor.Clear(); lerp1Description.PropertyVector2.Clear();lerp1Description.PropertyVector3.Clear();lerp1Description.PropertyVector4.Clear();
 				lerp1Description.myKeys.Clear(); lerp1Description.myValues.Clear();
@@ -133,7 +133,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 		
 	public void OnGUI()
 	{
-		if( EditorApplication.isPlaying && gameIsPaused == false  && currentSelection != null  && rend )
+		if( EditorApplication.isPlaying && gameIsPaused == false && currentSelection != null && rend )
 		{
 			var styleTransition1Button = new GUIStyle(GUI.skin.button);
 			var styleTransition2Button = new GUIStyle(GUI.skin.button);
@@ -160,7 +160,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 			EditorGUILayout.LabelField("Currently selected Material:",styleH2);EditorGUILayout.Space();
 			if(substance)
 			EditorGUILayout.LabelField (substance.name,styleH2);EditorGUILayout.Space();
-			currentSelection.transform.position =  EditorGUILayout.Vector3Field("At Position", currentSelection.transform.position);
+			currentSelection.transform.position = EditorGUILayout.Vector3Field("At Position", currentSelection.transform.position);
 			ProceduralMaterial.substanceProcessorUsage = ProceduralProcessorUsage.All;
 
 			if ( substance && saveDefaultSubstanceVars)
@@ -171,7 +171,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				defaultObjProperties = substance.GetProceduralPropertyDescriptions();
 				objProperties = substance.GetProceduralPropertyDescriptions();
 				defaultSubstanceObjProperties[defaultSubstanceIndex].PropertyMaterialName = defaultSubstance.name;
-				DebugStrings.Add("Default substance material "  + defaultSubstanceIndex + ": " + selectedStartupMaterials[0] );
+				DebugStrings.Add("Default substance material " + defaultSubstanceIndex + ": " + selectedStartupMaterials[0] );
 				AddProceduralVariablesToList(defaultSubstanceObjProperties[defaultSubstanceIndex]);
 				defaultSubstanceObjProperties[defaultSubstanceIndex].stdVector2.Add(MainTexOffset);
 				defaultSubstanceObjProperties[defaultSubstanceIndex].stdColor.Add(emissionInput);
@@ -191,14 +191,14 @@ public class SubstanceToolWindow :  EditorWindow   {
 							GUILayout.BeginHorizontal();
 							GUILayout.Label(objProperty.name);
 							float propFloat = substance.GetProceduralFloat(objProperty.name);
-							float oldfloat =  propFloat;
-							string propFloatTextField =  propFloat.ToString();
+							float oldfloat = propFloat;
+							string propFloatTextField = propFloat.ToString();
 							propFloat = EditorGUILayout.Slider( propFloat, objProperty.minimum, objProperty.maximum);
-							GUILayout.TextField( propFloatTextField, 5 ,  GUILayout.Width(200));
-							substance.SetProceduralFloat(objProperty.name,  propFloat);
+							GUILayout.TextField( propFloatTextField, 5 , GUILayout.Width(200));
+							substance.SetProceduralFloat(objProperty.name, propFloat);
 							GUILayout.EndHorizontal();
-							if ( EditorGUI.EndChangeCheck()  ) // anytime you change a slider it will save the old/new value to the debug text file
-							{DebugStrings.Add( objProperty.name + " Was " + oldfloat +  " is now: " + propFloat );}
+							if ( EditorGUI.EndChangeCheck() ) // anytime you change a slider it will save the old/new value to the debug text file
+							{DebugStrings.Add( objProperty.name + " Was " + oldfloat + " is now: " + propFloat );}
 					}
 					else if (propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4) 
 					{
@@ -210,7 +210,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 						if (colorInput != oldColorInput)
 							substance.SetProceduralColor(objProperty.name, colorInput);
 						if ( EditorGUI.EndChangeCheck() )
-						{DebugStrings.Add( objProperty.name + " Was " + oldColorInput +  " is now: " + colorInput );}
+						{DebugStrings.Add( objProperty.name + " Was " + oldColorInput + " is now: " + colorInput );}
 					}
 					else if(propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4)
 					{
@@ -230,8 +230,8 @@ public class SubstanceToolWindow :  EditorWindow   {
 							} 
 							if (inputVector != oldInputVector) 
 								substance.SetProceduralVector(objProperty.name, inputVector);
-							if ( EditorGUI.EndChangeCheck()  )
-							{DebugStrings.Add( objProperty.name + " Was " + oldInputVector +  " is now: " + inputVector );}
+							if ( EditorGUI.EndChangeCheck() )
+							{DebugStrings.Add( objProperty.name + " Was " + oldInputVector + " is now: " + inputVector );}
 					}
 				}
 				if ( rend && rend.sharedMaterial.HasProperty("_MainTex"))
@@ -242,9 +242,9 @@ public class SubstanceToolWindow :  EditorWindow   {
 					{
 						Vector2 oldOffset = MainTexOffset;
 						MainTexOffset.x = EditorGUILayout.Slider(MainTexOffset.x,-10f,10.0f); 
-						MainTexOffset.y =  EditorGUILayout.Slider(MainTexOffset.y,-10f,10.0f); 
+						MainTexOffset.y = EditorGUILayout.Slider(MainTexOffset.y,-10f,10.0f); 
 						if ( EditorGUI.EndChangeCheck())
-						{DebugStrings.Add( "_MainTex" + " Was " + oldOffset +  " is now: " + MainTexOffset );}
+						{DebugStrings.Add( "_MainTex" + " Was " + oldOffset + " is now: " + MainTexOffset );}
 					}
 				}
 				if (rend && rend.sharedMaterial.HasProperty("_EmissionColor"))
@@ -255,7 +255,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 					Color oldEmissionInput = emissionInput;
 					rend.sharedMaterial.SetColor("_EmissionColor", emissionInput);
 					if ( EditorGUI.EndChangeCheck())
-					{DebugStrings.Add( "_EmissionColor" + " Was " + oldEmissionInput +  " is now: " + emissionInput );}
+					{DebugStrings.Add( "_EmissionColor" + " Was " + oldEmissionInput + " is now: " + emissionInput );}
 				}
 				EditorGUILayout.Space();
 				Rect r = EditorGUILayout.BeginHorizontal ("Button");
@@ -281,9 +281,9 @@ public class SubstanceToolWindow :  EditorWindow   {
 					Description.stdVector2.Add(MainTexOffset);
 					serializer.Serialize(writer, Description);
 					writer.Close();
-					Debug.Log(fInfo +  ": File written.");
+					Debug.Log(fInfo + ": File written.");
 					DebugStrings.Add("-----------------------------------");
-					DebugStrings.Add( "Wrote XML file " + " to: " + fInfo + ", File has: "  );
+					DebugStrings.Add( "Wrote XML file " + " to: " + fInfo + ", File has: " );
 					DebugStrings.Add(Description.PropertyName.Count + " Total Properties ");
 					DebugStrings.Add(Description.PropertyFloat.Count + " Float Properties" );
 					DebugStrings.Add(Description.PropertyColor.Count + " Color Properties");
@@ -315,12 +315,12 @@ public class SubstanceToolWindow :  EditorWindow   {
 					}
 					stream.Close();
 					DebugStrings.Add("-----------------------------------");
-					DebugStrings.Add( "Read XML file " + " from: " + stream.Name + ", File has: "  );
-					if (container.PropertyMaterialName !=null)
+					DebugStrings.Add( "Read XML file " + " from: " + stream.Name + ", File has: " );
+					if (container.PropertyMaterialName != null)
 					DebugStrings.Add("Material Name: " + container.PropertyMaterialName);
 					DebugStrings.Add(container.PropertyName.Count + " Total Properties");
 					DebugStrings.Add(container.PropertyFloat.Count + " Float Properties");
-					DebugStrings.Add(container.PropertyColor.Count + " Color Properties  ");
+					DebugStrings.Add(container.PropertyColor.Count + " Color Properties ");
 					DebugStrings.Add(container.PropertyVector4.Count + " Vector4 Properties");
 					DebugStrings.Add(container.PropertyVector3.Count + " Vector3 Properties");
 					DebugStrings.Add(container.PropertyVector2.Count + " Vector2 Properties");
@@ -370,7 +370,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				}
 				if (GUILayout.Button("Reset ALL Values To Default"))
 				{
-					for (int i =  0; i < defaultSubstanceObjProperties.Count; i++)
+					for (int i = 0; i < defaultSubstanceObjProperties.Count; i++)
 					{
 						if ((substance.name == defaultSubstanceObjProperties[i].PropertyMaterialName) || (rend.sharedMaterial.name == defaultSubstanceObjProperties[i].PropertyMaterialName) )
 						{
@@ -459,14 +459,14 @@ public class SubstanceToolWindow :  EditorWindow   {
 					}
 					else if (lerp1Description != null && lerp2Description!= null)
 					{
-						DebugStrings.Add("Tried to animate object: " + currentSelection + " but the Transition Material name " + lerp1Description.PropertyMaterialName +  " did not match the current Procedural Material name: " +  substance.name);
+						DebugStrings.Add("Tried to animate object: " + currentSelection + " but the Transition Material name " + lerp1Description.PropertyMaterialName + " did not match the current Procedural Material name: " + substance.name);
 						var renameMaterialOption =	EditorUtility.DisplayDialog(
 							"error", 
-							"Transition Material name " + lerp1Description.PropertyMaterialName +  " does not match current Procedural Material name:  " +  substance.name + ". Would you like to rename " + lerp1Description.PropertyMaterialName + " to " + substance.name + "?"
+							"Transition Material name " + lerp1Description.PropertyMaterialName + " does not match current Procedural Material name: " + substance.name + ". Would you like to rename " + lerp1Description.PropertyMaterialName + " to " + substance.name + "?"
 							+ " (Only do this if you are sure the materials are the same and only have different names)","Yes","No");
 						if(renameMaterialOption)
 						{
-							DebugStrings.Add("Renamed Material: " + lerp1Description.PropertyMaterialName + " To: " + substance.name  );
+							DebugStrings.Add("Renamed Material: " + lerp1Description.PropertyMaterialName + " To: " + substance.name );
 							lerp1Description.PropertyMaterialName = substance.name;
 							lerp2Description.PropertyMaterialName = substance.name;
 							substanceLerp = true;
@@ -474,7 +474,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 						else
 						{
 							DebugStrings.Add("Did not rename or take any other action.");
-						}//EditorUtility.DisplayDialog("error", lerp1Description.PropertyMaterialName +  " Material does not match name:  " +  substance.name, "OK");
+						}//EditorUtility.DisplayDialog("error", lerp1Description.PropertyMaterialName + " Material does not match name: " + substance.name, "OK");
 					}
 					else 
 						EditorUtility.DisplayDialog("error", "You do not have two transitions", "OK");
@@ -508,10 +508,10 @@ public class SubstanceToolWindow :  EditorWindow   {
 									prefabProperties.myLerp1Values.Add(lerp1Description.myValues[j]);
 									prefabProperties.myLerp2Keys.Add(objProperty.name);
 									prefabProperties.myLerp2Values.Add(lerp2Description.myValues[j]);
-									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j]  );
-									DebugStrings.Add("Prefab Transition 2 Property " + i +": " + objProperty.name + " =" + lerp2Description.myValues[j]  );
+									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j] );
+									DebugStrings.Add("Prefab Transition 2 Property " + i +": " + objProperty.name + " =" + lerp2Description.myValues[j] );
 								}
-								else if ((propType == ProceduralPropertyType.Color3 ||  propType == ProceduralPropertyType.Color4) &&  lerp1Description.myKeys[j] == objProperty.name)
+								else if ((propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4) && lerp1Description.myKeys[j] == objProperty.name)
 								{// color never has a range so without this it could not detect colors
 									prefabProperties.PropertyNameLerp1.Add(objProperty.name);
 									prefabProperties.PropertyNameLerp2.Add(objProperty.name);
@@ -519,8 +519,8 @@ public class SubstanceToolWindow :  EditorWindow   {
 									prefabProperties.myLerp1Values.Add(lerp1Description.myValues[j]);
 									prefabProperties.myLerp2Keys.Add(objProperty.name);
 									prefabProperties.myLerp2Values.Add(lerp2Description.myValues[j]);
-									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j]  );
-									DebugStrings.Add("Prefab Transition 2 Property " + i +": " + objProperty.name + " =" + lerp2Description.myValues[j]  );
+									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j] );
+									DebugStrings.Add("Prefab Transition 2 Property " + i +": " + objProperty.name + " =" + lerp2Description.myValues[j] );
 								}
 							}
 						}
@@ -536,7 +536,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 					else if (lerp1Description != null && lerp2Description == null)
 					{
 						for (int i = 0; i < objProperties.Length; i++)
-						{   
+						{  
 							ProceduralPropertyDescription objProperty = objProperties[i];
 							ProceduralPropertyType propType = objProperties[i].type;
 							for(int j =0; j < lerp1Description.myKeys.Count(); j++ )
@@ -546,14 +546,14 @@ public class SubstanceToolWindow :  EditorWindow   {
 									prefabProperties.PropertyNameLerp1.Add(objProperty.name);
 									prefabProperties.myLerp1Keys.Add(objProperty.name);
 									prefabProperties.myLerp1Values.Add(lerp1Description.myValues[j]);
-									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j]  );
+									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j] );
 								}
-								else if ((propType == ProceduralPropertyType.Color3 ||  propType == ProceduralPropertyType.Color4) &&  lerp1Description.myKeys[j] == objProperty.name)
+								else if ((propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4) && lerp1Description.myKeys[j] == objProperty.name)
 								{// color never has a range so without this it could not detect colors
 									prefabProperties.PropertyNameLerp1.Add(objProperty.name);
 									prefabProperties.myLerp1Keys.Add(objProperty.name);
 									prefabProperties.myLerp1Values.Add(lerp1Description.myValues[j]);
-									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j]  );
+									DebugStrings.Add("Prefab Transition 1 Property " + i +": " + objProperty.name + " =" + lerp1Description.myValues[j] );
 								}
 							}
 						}
@@ -563,7 +563,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 					}
 					AssetDatabase.SaveAssets();
 					AssetDatabase.Refresh();
-					DebugStrings.Add("Prefab transition 1  property count " + prefabProperties.PropertyNameLerp1.Count );
+					DebugStrings.Add("Prefab transition 1 property count " + prefabProperties.PropertyNameLerp1.Count );
 				}
 
 				if (GUILayout.Button ("Write Debug Text File")) 
@@ -574,9 +574,10 @@ public class SubstanceToolWindow :  EditorWindow   {
 					if (!fInfo.Exists )
 						debugWrite = fInfo.CreateText();
 					else
+					{
 						debugWrite = fInfo.CreateText();Debug.Log("Overwriting File");
-					
-					debugWrite.WriteLine(System.DateTime.Now +   " Debug:");
+					}
+					debugWrite.WriteLine(System.DateTime.Now + " Debug:");
 					for (int i = 0; i < DebugStrings.Count; i++)
 					{
 						if (DebugStrings.Count >1 && i > 1 && DebugStrings[i] != DebugStrings[i-1])
@@ -598,11 +599,11 @@ public class SubstanceToolWindow :  EditorWindow   {
 		{
 			if(!rend && !currentSelection )
 			{
-				this.Close(); EditorUtility.DisplayDialog("Error", " No object selected.", "OK");  return;
+				this.Close(); EditorUtility.DisplayDialog("Error", " No object selected.", "OK"); return;
 			} 
 			else if(!rend)
 			{
-				this.Close(); EditorUtility.DisplayDialog("Error", " No renderer attached to object.", "OK");  return;
+				this.Close(); EditorUtility.DisplayDialog("Error", " No renderer attached to object.", "OK"); return;
 			}
 			if (!substance)
 			{
@@ -612,7 +613,6 @@ public class SubstanceToolWindow :  EditorWindow   {
 			this.Close();
 			EditorUtility.DisplayDialog("Error", " Select a game object in the Hierarchy that has a Substance material first, then select the SubstanceTween window.(Make sure that you are in play mode)", "OK");
 		}
-
 		else if ( EditorApplication.isPlaying && !rend)
 		{
 			this.Close(); EditorUtility.DisplayDialog("error", " Object has no renderer attached", "OK");
@@ -625,21 +625,27 @@ public class SubstanceToolWindow :  EditorWindow   {
 			EditorGUILayout.EndScrollView(); EditorGUILayout.EndVertical();
 		}
 		Repaint();
-		if (substance && !substanceLerp)
-			substance.RebuildTextures();
+		#if UNITY_5_3
+			if (substance && !substanceLerp)
+				substance.RebuildTexturesImmediately();
+		#endif
+		#if UNITY_5_4_OR_NEWER // In Unity 5.4 and above I am able to use RebuildTextures() which is faster but it is not compatible with 5.3 
+			if (substance && !substanceLerp)
+	 			 substance.RebuildTextures();
+		#endif
 	}
 
-	void Update ()
+  void Update ()
 	{
-		if(EditorApplication.isPlaying  )
+		if(EditorApplication.isPlaying)
 		{
 			if (rend)
-				rend.sharedMaterial.SetTextureOffset("_MainTex",new Vector2 (MainTexOffset.x * Time.time,MainTexOffset.y *Time.time));
+				rend.sharedMaterial.SetTextureOffset("_MainTex",new Vector2 (MainTexOffset.x * Time.time, MainTexOffset.y * Time.time));
 			if (substance && substanceLerp && currentSelection == Selection.activeGameObject)
 			{ 
 				float lerp = 5;
 				if (animationTime!= 0)
-				 lerp = Mathf.PingPong(Time.time, animationTime) / animationTime;
+					lerp = Mathf.PingPong(Time.time, animationTime) / animationTime;
 				if (objProperties != null)
 					for(int i = 0; i < objProperties.Length; i++)
 					{
@@ -659,12 +665,11 @@ public class SubstanceToolWindow :  EditorWindow   {
 							}
 						}
 						else if (propType == ProceduralPropertyType.Color3)
-						{  
+						{ 
 							for(int j =0; j < lerp1Description.myKeys.Count(); j++ )
 							{
-								if (lerp1Description.myKeys[j] ==   objProperty.name)
+								if (lerp1Description.myKeys[j] == objProperty.name)
 								{
-									
 									Color curLerp1Color = new Color(0,0,0), curLerp2Color = new Color(0,0,0);
 									ColorUtility.TryParseHtmlString(lerp1Description.myValues[j],out curLerp1Color);
 									ColorUtility.TryParseHtmlString(lerp2Description.myValues[j],out curLerp2Color);
@@ -674,10 +679,10 @@ public class SubstanceToolWindow :  EditorWindow   {
 							}
 						}
 						else if (propType == ProceduralPropertyType.Color4 )
-						{  
+						{ 
 							for(int j =0; j < lerp1Description.myKeys.Count(); j++ )
 							{
-								if (lerp1Description.myKeys[j] ==   objProperty.name)
+								if (lerp1Description.myKeys[j] == objProperty.name)
 								{
 									Color curLerp1Color = new Color(0,0,0), curLerp2Color = new Color(0,0,0);
 									ColorUtility.TryParseHtmlString(lerp1Description.myValues[j],out curLerp1Color);
@@ -687,7 +692,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 								}
 							}
 						}
-						else if (propType == ProceduralPropertyType.Vector2 ||propType == ProceduralPropertyType.Vector3 || propType ==  ProceduralPropertyType.Vector4)
+						else if (propType == ProceduralPropertyType.Vector2 ||propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4)
 						{
 							Vector4 curLerp1Vector = Vector4.zero, curLerp2Vector = Vector4.zero;
 							if ( propType == ProceduralPropertyType.Vector4)
@@ -703,7 +708,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 									}
 								}
 							}
-							else if  ( propType == ProceduralPropertyType.Vector3)
+							else if ( propType == ProceduralPropertyType.Vector3)
 							{
 								for(int j =0; j < lerp1Description.myKeys.Count(); j++ )
 								{
@@ -771,17 +776,17 @@ public class SubstanceToolWindow :  EditorWindow   {
 				materialVariables.PropertyFloat.Add(propFloat);
 				materialVariables.myKeys.Add(objProperty.name);
 				materialVariables.myValues.Add(propFloat.ToString());
-				DebugStrings.Add(i + " " + objProperty.name + ": " +  propFloat.ToString());
+				DebugStrings.Add(i + " " + objProperty.name + ": " + propFloat.ToString());
 			}
-			if(propType == ProceduralPropertyType.Color3 ||  propType == ProceduralPropertyType.Color4 )
+			if(propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4 )
 			{
-				Color propColor =  substance.GetProceduralColor(objProperty.name);
+				Color propColor = substance.GetProceduralColor(objProperty.name);
 				materialVariables.PropertyColor.Add(propColor);
 				materialVariables.myKeys.Add(objProperty.name);
 				materialVariables.myValues.Add("#" + ColorUtility.ToHtmlStringRGBA(propColor) );
 				DebugStrings.Add(i + " " + objProperty.name + ": #" + ColorUtility.ToHtmlStringRGBA(propColor));
 			}
-			if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange ))  )
+			if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange )) )
 			{
 				if (propType == ProceduralPropertyType.Vector4)
 				{
@@ -791,7 +796,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 					materialVariables.myValues.Add(propVector4.ToString());
 					DebugStrings.Add(i + " " + objProperty.name + ": " + propVector4.ToString());
 				}
-				else if  (propType == ProceduralPropertyType.Vector3)
+				else if (propType == ProceduralPropertyType.Vector3)
 				{
 					Vector3 propVector3 = substance.GetProceduralVector(objProperty.name);
 					materialVariables.PropertyVector3.Add(propVector3);
@@ -820,11 +825,11 @@ public class SubstanceToolWindow :  EditorWindow   {
 		{ 
 			ProceduralPropertyDescription objProperty = objProperties[i];
 			ProceduralPropertyType propType = objProperties[i].type;
-			if (propType == ProceduralPropertyType.Float && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange) || resettingValuesToDefault  ))
+			if (propType == ProceduralPropertyType.Float && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange) || resettingValuesToDefault ))
 			{
 				for(int j =0; j < propertyList.myKeys.Count(); j++ )
 				{
-					if (propertyList.myKeys[j] ==   objProperty.name)
+					if (propertyList.myKeys[j] == objProperty.name)
 					{
 						if (propertyList.myKeys[j] == objProperty.name)
 						substance.SetProceduralFloat(objProperty.name,float.Parse(propertyList.myValues[j]));
@@ -832,7 +837,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				}
 			}
 			else if (propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4 )
-			{  
+			{ 
 				for(int j =0; j < propertyList.myKeys.Count(); j++ )
 				{
 					if (propertyList.myKeys[j] == objProperty.name)
@@ -843,24 +848,24 @@ public class SubstanceToolWindow :  EditorWindow   {
 					}
 				}
 			}
-			else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange ) || resettingValuesToDefault )  )
+			else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (objProperty.hasRange || (saveParametersWithoutRange && !objProperty.hasRange ) || resettingValuesToDefault ) )
 			{
 				if ( propType == ProceduralPropertyType.Vector4)
 				{ 
 					for(int j =0; j < propertyList.myKeys.Count(); j++ )
 					{
-						if (propertyList.myKeys[j] ==   objProperty.name)
+						if (propertyList.myKeys[j] == objProperty.name)
 						{
 							Vector4 curVector4 = StringToVector(propertyList.myValues[j],4);
 							substance.SetProceduralVector(objProperty.name,curVector4);
 						}
 					}
 				}
-				else if  ( propType == ProceduralPropertyType.Vector3)
+				else if ( propType == ProceduralPropertyType.Vector3)
 				{
 					for(int j =0; j < propertyList.myKeys.Count(); j++ )
 					{
-						if (propertyList.myKeys[j] ==   objProperty.name)
+						if (propertyList.myKeys[j] == objProperty.name)
 						{
 							Vector3 curVector3 = StringToVector(propertyList.myValues[j],3);
 							substance.SetProceduralVector(objProperty.name,curVector3);
@@ -871,7 +876,7 @@ public class SubstanceToolWindow :  EditorWindow   {
 				{
 					for(int j =0; j < propertyList.myKeys.Count(); j++ )
 					{
-						if (propertyList.myKeys[j] ==   objProperty.name)
+						if (propertyList.myKeys[j] == objProperty.name)
 						{
 							Vector2 curVector2 = StringToVector(propertyList.myValues[j],2);
 							substance.SetProceduralVector(objProperty.name,curVector2);
