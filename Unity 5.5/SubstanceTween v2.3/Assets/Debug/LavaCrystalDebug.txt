@@ -1,0 +1,397 @@
+1/9/2017 12:35:05 AM Debug:
+Default substance material 0: Crystal1-6 (UnityEngine.ProceduralMaterial)
+----------------------------------
+0 $outputsize: (8.0, 8.0)
+1 $pixelsize: (1.0, 1.0)
+2 $randomseed: 0
+3 Base_Color: #1D8800FF
+4 Crystal2_Opacity: 1
+5 Gradient_Opacity: 0
+6 Crystal2_Warp: 0
+7 Crystal_Levelinmid: 0.02933508
+8 Crystal_Opacity: 0.4621316
+9 Crystal_Warp: 0
+10 Crystal_Levelouthigh: 1
+11 Crystal_Levelinlow: 0.001060304
+12 Crystal_Levelinhigh: 1
+13 Crystal_Leveloutlow: 0
+14 Crystal_Normal_Intensity: 1.176717
+15 Gradient_Tiling: 1
+16 Scratches_Pattern_size_width: 100
+17 Scratches_Pattern_size_height: 100
+18 Scratches_Disorder: 0
+19 Emission_Opacity: 1
+20 Scratches_Opacity: 0.25
+21 Grunge_Map5_Balance: 0.5
+22 Grunge_Map5_Contrast: 0.5
+23 Grunge_Map5_Brush_Pattern: 0
+24 Grunge_Map5_Opacity: 0.09116413
+25 Roughness_Color: #000000EC
+26 Guass_Spots2_Levelinlow: 0
+27 Guass_Spots2_Levelinhigh: 1
+28 Crystal_Disorder: 8.835865
+29 Guass_Spots2_Levelinmid: 0.0443405
+30 Guass_Spots2_Leveloutlow: 0.1791357
+31 Guass_Spots2_Levelouthigh: 0.9116414
+32 Guass_Spots2_Opacity: 0
+33 Height_Blur_Intensity: 1.544179
+34 Height_Normal_Intensity: 1
+35 Height_Relief_Balance: (0.5, 0.5, 0.5)
+36 Height_Global_Opacity: 1
+37 Emission_Output_Color: #30EB00FF
+38 Metallic_Color: #160000FF
+39 Moisture_Disorder: 8.835865
+40 Moisture_Normal_Intensity: 2.088359
+Animation Time: 5 Seconds
+-----------------------------------
+Created 1st transition
+----------------------------------
+0 $outputsize: (8.0, 8.0)
+1 $pixelsize: (1.0, 1.0)
+2 $randomseed: 0
+3 Base_Color: #1D8800FF
+4 Crystal2_Opacity: 1
+5 Gradient_Opacity: 0
+6 Crystal2_Warp: 0
+7 Crystal_Levelinmid: 0.02933508
+8 Crystal_Opacity: 0.4621316
+9 Crystal_Warp: 0
+10 Crystal_Levelouthigh: 1
+11 Crystal_Levelinlow: 0.001060304
+12 Crystal_Levelinhigh: 1
+13 Crystal_Leveloutlow: 0
+14 Crystal_Normal_Intensity: 1.176717
+15 Gradient_Tiling: 1
+16 Scratches_Pattern_size_width: 100
+17 Scratches_Pattern_size_height: 100
+18 Scratches_Disorder: 0
+19 Emission_Opacity: 1
+20 Scratches_Opacity: 0.25
+21 Grunge_Map5_Balance: 0.5
+22 Grunge_Map5_Contrast: 0.5
+23 Grunge_Map5_Brush_Pattern: 0
+24 Grunge_Map5_Opacity: 0.09116413
+25 Roughness_Color: #000000EC
+26 Guass_Spots2_Levelinlow: 0
+27 Guass_Spots2_Levelinhigh: 1
+28 Crystal_Disorder: 8.835865
+29 Guass_Spots2_Levelinmid: 0.0443405
+30 Guass_Spots2_Leveloutlow: 0.1791357
+31 Guass_Spots2_Levelouthigh: 0.9116414
+32 Guass_Spots2_Opacity: 0
+33 Height_Blur_Intensity: 1.544179
+34 Height_Normal_Intensity: 1
+35 Height_Relief_Balance: (0.5, 0.5, 0.5)
+36 Height_Global_Opacity: 1
+37 Emission_Output_Color: #30EB00FF
+38 Metallic_Color: #160000FF
+39 Moisture_Disorder: 8.835865
+40 Moisture_Normal_Intensity: 2.088359
+Animation Time: 5 Seconds
+-----------------------------------
+Read XML file  from: C:/Users/Me/Documents/Sch/Unity/5.4.2/1-7-16(try3)/SubstanceTween v2.3/Assets/XML/Crystal/demo/ver2RedCrystal.xml, File has: 
+Material Name: Crystal1-5
+39 Total Properties
+32 Float Properties
+4 Color Properties  
+0 Vector4 Properties
+1 Vector3 Properties
+2 Vector2 Properties
+0 Keys
+0 Values
+_EmissionColor = RGBA(1.000, 1.000, 1.000, 1.000)
+_MainTex = (0.0, 0.1)
+-----------------------------------
+Read XML file  from: C:/Users/Me/Documents/Sch/Unity/5.4.2/1-7-16(try3)/SubstanceTween v2.3/Assets/XML/Crystal/demo/2.3 12-14-16/RedMetalSphere.xml, File has: 
+Material Name: Crystal1-6
+41 Total Properties
+34 Float Properties
+4 Color Properties  
+0 Vector4 Properties
+1 Vector3 Properties
+2 Vector2 Properties
+41 Keys
+41 Values
+_EmissionColor = RGBA(1.000, 1.000, 1.000, 0.000)
+_MainTex = (0.0, 0.0)
+-----------------------------------
+Created 2nd transition
+----------------------------------
+0 $outputsize: (8.0, 8.0)
+1 $pixelsize: (1.0, 1.0)
+2 $randomseed: 0
+3 Base_Color: #850000FF
+4 Crystal2_Opacity: 1
+5 Gradient_Opacity: 0
+6 Crystal2_Warp: 0
+7 Crystal_Levelinmid: 0.332
+8 Crystal_Opacity: 1
+9 Crystal_Warp: 0
+10 Crystal_Levelouthigh: 1
+11 Crystal_Levelinlow: 0.012
+12 Crystal_Levelinhigh: 1
+13 Crystal_Leveloutlow: 0
+14 Crystal_Normal_Intensity: 3
+15 Gradient_Tiling: 1
+16 Scratches_Pattern_size_width: 100
+17 Scratches_Pattern_size_height: 100
+18 Scratches_Disorder: 0
+19 Emission_Opacity: 1
+20 Scratches_Opacity: 0.25
+21 Grunge_Map5_Balance: 0.5
+22 Grunge_Map5_Contrast: 0.5
+23 Grunge_Map5_Brush_Pattern: 0
+24 Grunge_Map5_Opacity: 0
+25 Roughness_Color: #0000002D
+26 Guass_Spots2_Levelinlow: 0
+27 Guass_Spots2_Levelinhigh: 1
+28 Crystal_Disorder: 0
+29 Guass_Spots2_Levelinmid: 0
+30 Guass_Spots2_Leveloutlow: 0
+31 Guass_Spots2_Levelouthigh: 0
+32 Guass_Spots2_Opacity: 0
+33 Height_Blur_Intensity: 2
+34 Height_Normal_Intensity: 1
+35 Height_Relief_Balance: (0.5, 0.5, 0.5)
+36 Height_Global_Opacity: 1
+37 Emission_Output_Color: #740700FF
+38 Metallic_Color: #FF0000FF
+39 Moisture_Disorder: 100
+40 Moisture_Normal_Intensity: 3
+Animation Time: 5 Seconds
+-----------------------------------
+Turned on animation
+Turned off animation
+Reset all values to default
+Deleted Transition for Crystal1-6
+Deleted Transitions for Crystal1-6
+-----------------------------------
+Read XML file  from: C:/Users/Me/Documents/Sch/Unity/5.4.2/1-7-16(try3)/SubstanceTween v2.3/Assets/XML/Crystal/demo/2.3 12-14-16/RedMetalSphere3.xml, File has: 
+Material Name: Crystal1-6
+41 Total Properties
+34 Float Properties
+4 Color Properties  
+0 Vector4 Properties
+1 Vector3 Properties
+2 Vector2 Properties
+41 Keys
+41 Values
+_EmissionColor = RGBA(1.000, 1.000, 1.000, 0.000)
+_MainTex = (0.0, 0.0)
+-----------------------------------
+Created 1st transition
+----------------------------------
+0 $outputsize: (8.0, 8.0)
+1 $pixelsize: (1.0, 1.0)
+2 $randomseed: 0
+3 Base_Color: #FFAE00FF
+4 Crystal2_Opacity: 1
+5 Gradient_Opacity: 0
+6 Crystal2_Warp: 0
+7 Crystal_Levelinmid: 0.332
+8 Crystal_Opacity: 1
+9 Crystal_Warp: 0
+10 Crystal_Levelouthigh: 1
+11 Crystal_Levelinlow: 0.012
+12 Crystal_Levelinhigh: 1
+13 Crystal_Leveloutlow: 0
+14 Crystal_Normal_Intensity: 3
+15 Gradient_Tiling: 1
+16 Scratches_Pattern_size_width: 100
+17 Scratches_Pattern_size_height: 100
+18 Scratches_Disorder: 0
+19 Emission_Opacity: 1
+20 Scratches_Opacity: 0.25
+21 Grunge_Map5_Balance: 0.5
+22 Grunge_Map5_Contrast: 0.5
+23 Grunge_Map5_Brush_Pattern: 0
+24 Grunge_Map5_Opacity: 0
+25 Roughness_Color: #0000002D
+26 Guass_Spots2_Levelinlow: 0
+27 Guass_Spots2_Levelinhigh: 1
+28 Crystal_Disorder: 100
+29 Guass_Spots2_Levelinmid: 0
+30 Guass_Spots2_Leveloutlow: 0
+31 Guass_Spots2_Levelouthigh: 0
+32 Guass_Spots2_Opacity: 0
+33 Height_Blur_Intensity: 2
+34 Height_Normal_Intensity: 1
+35 Height_Relief_Balance: (0.5, 0.5, 0.5)
+36 Height_Global_Opacity: 1
+37 Emission_Output_Color: #732800FF
+38 Metallic_Color: #FF0000FF
+39 Moisture_Disorder: 100
+40 Moisture_Normal_Intensity: 3
+Animation Time: 5 Seconds
+-----------------------------------
+Read XML file  from: C:/Users/Me/Documents/Sch/Unity/5.4.2/1-7-16(try3)/SubstanceTween v2.3/Assets/XML/Crystal/demo/2.3 12-14-16/RedMetalSphere.xml, File has: 
+Material Name: Crystal1-6
+41 Total Properties
+34 Float Properties
+4 Color Properties  
+0 Vector4 Properties
+1 Vector3 Properties
+2 Vector2 Properties
+41 Keys
+41 Values
+_EmissionColor = RGBA(1.000, 1.000, 1.000, 0.000)
+_MainTex = (0.0, 0.0)
+-----------------------------------
+Created 2nd transition
+----------------------------------
+0 $outputsize: (8.0, 8.0)
+1 $pixelsize: (1.0, 1.0)
+2 $randomseed: 0
+3 Base_Color: #850000FF
+4 Crystal2_Opacity: 1
+5 Gradient_Opacity: 0
+6 Crystal2_Warp: 0
+7 Crystal_Levelinmid: 0.332
+8 Crystal_Opacity: 1
+9 Crystal_Warp: 0
+10 Crystal_Levelouthigh: 1
+11 Crystal_Levelinlow: 0.012
+12 Crystal_Levelinhigh: 1
+13 Crystal_Leveloutlow: 0
+14 Crystal_Normal_Intensity: 3
+15 Gradient_Tiling: 1
+16 Scratches_Pattern_size_width: 100
+17 Scratches_Pattern_size_height: 100
+18 Scratches_Disorder: 0
+19 Emission_Opacity: 1
+20 Scratches_Opacity: 0.25
+21 Grunge_Map5_Balance: 0.5
+22 Grunge_Map5_Contrast: 0.5
+23 Grunge_Map5_Brush_Pattern: 0
+24 Grunge_Map5_Opacity: 0
+25 Roughness_Color: #0000002D
+26 Guass_Spots2_Levelinlow: 0
+27 Guass_Spots2_Levelinhigh: 1
+28 Crystal_Disorder: 0
+29 Guass_Spots2_Levelinmid: 0
+30 Guass_Spots2_Leveloutlow: 0
+31 Guass_Spots2_Levelouthigh: 0
+32 Guass_Spots2_Opacity: 0
+33 Height_Blur_Intensity: 2
+34 Height_Normal_Intensity: 1
+35 Height_Relief_Balance: (0.5, 0.5, 0.5)
+36 Height_Global_Opacity: 1
+37 Emission_Output_Color: #740700FF
+38 Metallic_Color: #FF0000FF
+39 Moisture_Disorder: 100
+40 Moisture_Normal_Intensity: 3
+Animation Time: 5 Seconds
+-----------------------------------
+Turned on animation
+Turned off animation
+Turned on animation
+_MainTex Was (0.0, 0.0) is now: (0.0, 0.0)
+_MainTex Was (0.0, 0.0) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.1, 0.1)
+_MainTex Was (0.1, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.6)
+_MainTex Was (0.0, 0.6) is now: (0.0, 0.0)
+_MainTex Was (0.0, 0.0) is now: (0.0, 0.0)
+_MainTex Was (0.0, 0.0) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.2)
+_MainTex Was (0.0, 0.2) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.0)
+_MainTex Was (0.0, 0.0) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.2)
+_MainTex Was (0.0, 0.2) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.1, 0.1)
+_MainTex Was (0.1, 0.1) is now: (0.1, 0.1)
+_MainTex Was (0.1, 0.1) is now: (0.0, 0.1)
+_MainTex Was (0.0, 0.1) is now: (0.0, 0.1)
+Created prefab: LavaCrystal
+Prefab material: Crystal1-6
+Prefab Transition 1 Property 0: $outputsize =(8.0, 8.0)
+Prefab Transition 2 Property 0: $outputsize =(8.0, 8.0)
+Prefab Transition 1 Property 1: $pixelsize =(1.0, 1.0)
+Prefab Transition 2 Property 1: $pixelsize =(1.0, 1.0)
+Prefab Transition 1 Property 2: $randomseed =0
+Prefab Transition 2 Property 2: $randomseed =0
+Prefab Transition 1 Property 3: Base_Color =#FFAE00FF
+Prefab Transition 2 Property 3: Base_Color =#850000FF
+Prefab Transition 1 Property 4: Crystal2_Opacity =1
+Prefab Transition 2 Property 4: Crystal2_Opacity =1
+Prefab Transition 1 Property 5: Gradient_Opacity =0
+Prefab Transition 2 Property 5: Gradient_Opacity =0
+Prefab Transition 1 Property 6: Crystal2_Warp =0
+Prefab Transition 2 Property 6: Crystal2_Warp =0
+Prefab Transition 1 Property 7: Crystal_Levelinmid =0.332
+Prefab Transition 2 Property 7: Crystal_Levelinmid =0.332
+Prefab Transition 1 Property 8: Crystal_Opacity =1
+Prefab Transition 2 Property 8: Crystal_Opacity =1
+Prefab Transition 1 Property 9: Crystal_Warp =0
+Prefab Transition 2 Property 9: Crystal_Warp =0
+Prefab Transition 1 Property 10: Crystal_Levelouthigh =1
+Prefab Transition 2 Property 10: Crystal_Levelouthigh =1
+Prefab Transition 1 Property 11: Crystal_Levelinlow =0.012
+Prefab Transition 2 Property 11: Crystal_Levelinlow =0.012
+Prefab Transition 1 Property 12: Crystal_Levelinhigh =1
+Prefab Transition 2 Property 12: Crystal_Levelinhigh =1
+Prefab Transition 1 Property 13: Crystal_Leveloutlow =0
+Prefab Transition 2 Property 13: Crystal_Leveloutlow =0
+Prefab Transition 1 Property 14: Crystal_Normal_Intensity =3
+Prefab Transition 2 Property 14: Crystal_Normal_Intensity =3
+Prefab Transition 1 Property 15: Gradient_Tiling =1
+Prefab Transition 2 Property 15: Gradient_Tiling =1
+Prefab Transition 1 Property 16: Scratches_Pattern_size_width =100
+Prefab Transition 2 Property 16: Scratches_Pattern_size_width =100
+Prefab Transition 1 Property 17: Scratches_Pattern_size_height =100
+Prefab Transition 2 Property 17: Scratches_Pattern_size_height =100
+Prefab Transition 1 Property 18: Scratches_Disorder =0
+Prefab Transition 2 Property 18: Scratches_Disorder =0
+Prefab Transition 1 Property 19: Emission_Opacity =1
+Prefab Transition 2 Property 19: Emission_Opacity =1
+Prefab Transition 1 Property 20: Scratches_Opacity =0.25
+Prefab Transition 2 Property 20: Scratches_Opacity =0.25
+Prefab Transition 1 Property 21: Grunge_Map5_Balance =0.5
+Prefab Transition 2 Property 21: Grunge_Map5_Balance =0.5
+Prefab Transition 1 Property 22: Grunge_Map5_Contrast =0.5
+Prefab Transition 2 Property 22: Grunge_Map5_Contrast =0.5
+Prefab Transition 1 Property 23: Grunge_Map5_Brush_Pattern =0
+Prefab Transition 2 Property 23: Grunge_Map5_Brush_Pattern =0
+Prefab Transition 1 Property 24: Grunge_Map5_Opacity =0
+Prefab Transition 2 Property 24: Grunge_Map5_Opacity =0
+Prefab Transition 1 Property 25: Roughness_Color =#0000002D
+Prefab Transition 2 Property 25: Roughness_Color =#0000002D
+Prefab Transition 1 Property 26: Guass_Spots2_Levelinlow =0
+Prefab Transition 2 Property 26: Guass_Spots2_Levelinlow =0
+Prefab Transition 1 Property 27: Guass_Spots2_Levelinhigh =1
+Prefab Transition 2 Property 27: Guass_Spots2_Levelinhigh =1
+Prefab Transition 1 Property 28: Crystal_Disorder =100
+Prefab Transition 2 Property 28: Crystal_Disorder =0
+Prefab Transition 1 Property 29: Guass_Spots2_Levelinmid =0
+Prefab Transition 2 Property 29: Guass_Spots2_Levelinmid =0
+Prefab Transition 1 Property 30: Guass_Spots2_Leveloutlow =0
+Prefab Transition 2 Property 30: Guass_Spots2_Leveloutlow =0
+Prefab Transition 1 Property 31: Guass_Spots2_Levelouthigh =0
+Prefab Transition 2 Property 31: Guass_Spots2_Levelouthigh =0
+Prefab Transition 1 Property 32: Guass_Spots2_Opacity =0
+Prefab Transition 2 Property 32: Guass_Spots2_Opacity =0
+Prefab Transition 1 Property 33: Height_Blur_Intensity =2
+Prefab Transition 2 Property 33: Height_Blur_Intensity =2
+Prefab Transition 1 Property 34: Height_Normal_Intensity =1
+Prefab Transition 2 Property 34: Height_Normal_Intensity =1
+Prefab Transition 1 Property 35: Height_Relief_Balance =(0.5, 0.5, 0.5)
+Prefab Transition 2 Property 35: Height_Relief_Balance =(0.5, 0.5, 0.5)
+Prefab Transition 1 Property 36: Height_Global_Opacity =1
+Prefab Transition 2 Property 36: Height_Global_Opacity =1
+Prefab Transition 1 Property 37: Emission_Output_Color =#732800FF
+Prefab Transition 2 Property 37: Emission_Output_Color =#740700FF
+Prefab Transition 1 Property 38: Metallic_Color =#FF0000FF
+Prefab Transition 2 Property 38: Metallic_Color =#FF0000FF
+Prefab Transition 1 Property 39: Moisture_Disorder =100
+Prefab Transition 2 Property 39: Moisture_Disorder =100
+Prefab Transition 1 Property 40: Moisture_Normal_Intensity =3
+Prefab Transition 2 Property 40: Moisture_Normal_Intensity =3
+Prefab transition 1  property count 41
+Created debug log: C:/Users/Me/Documents/Sch/Unity/5.4.2/1-7-16(try3)/SubstanceTween v2.3/Assets/LavaCrystalDebug.txt

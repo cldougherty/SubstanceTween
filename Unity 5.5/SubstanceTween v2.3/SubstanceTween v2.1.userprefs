@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ObjProperty.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PrefabProperties.cs" Line="16" Column="34" />
+      <File FileName="Assets\Scripts\ObjProperty.cs" Line="20" Column="4" />
+      <File FileName="Assets\Scripts\Editor\SubstanceToolWindow.cs" Line="981" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Assets\Scripts\Editor\SubstanceToolWindow.cs" line="861" column="4" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
