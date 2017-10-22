@@ -1,0 +1,1175 @@
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.0\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Desktop\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Desktop\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Desktop\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-11-2016\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-16-16\SubstanceTween v2.1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-19-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-22-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\11-27-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-1-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-2-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-3-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-9-16 - DictionaryTst\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-10-16 - Copy\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-12-16\SubstanceTween v2.3\Temp\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\12-19-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try2)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.4.2\1-7-16(try3)\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-13-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-2\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-19-17-3\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\obj\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\obj\Debug\Assembly-CSharp.dll
+C:\Users\student.admin\Desktop\SubstanceTween v2.3 -3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-22-17\SubstanceTween v2.3 -3-4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-24-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-25-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-3\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-27-17-4\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-28-17 -2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\1-30-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\2-28-17-2\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-1-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-2-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-3-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.dll
+C:\Users\Me\Documents\Sch\Unity\5.5\SubstanceTween\3-10-17\SubstanceTween v2.4\obj\Debug\Assembly-CSharp.pdb
