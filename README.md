@@ -14,50 +14,50 @@ Controls(v2.5):
 * CTRL + Z – Undo
 * CTRL + Y – Redo
 * R – Randomize values
-* G– Repeat last action
+* G – Repeat last action
 Important Notes:
-• This tool is meant for simple/optimized materials. if you have a giant Substance Material that is 2048-2048 or has many exposed parameters near the beginning of the input graph in Substance Designer the tool will lag I recommend 512x512 or 1024x1024. 
-• In Substance Designer the main Output Size on the graph should be at 0x0 and set to ‘Relative to Parent’. The node outputs should be set to 512x512(Unity Standard) and ‘RelativeToParent’
-• Allegorithmic has a video and a page about optimizing substances for unity: https://www.youtube.com/watch?v=VnhIDRcfAWA https://support.allegorithmic.com/documentation/display/SD5/Performance+Optimization+Guidelines
-• Expect read XML files or prefabs to break when using different versions of this tool. Always save both.
-• Try not to delete objects or rename materials while in play mode (if you do, exit playmode and restart). 
-• Try not to use the tool on animated prefabs already created with this tool
-• If you update your material by adding parameters or changing the order in substance designer, you will still be able to read parameters from XML files as long as the names are the same (ex: Wall_Color == Wall_Color). 
-• You can play animations on different versions of your material. 
-• If your material name in the XML file is different than the name of the material in the inspector (Crystal 1.5 != Crystal 1-6 ) a dialogue prompt will ask you if you want to change the name of the material in the XML file when you press the ‘Toggle Animation’ button on a different object.  
+* This tool is meant for simple/optimized materials. if you have a giant Substance Material that is 2048-2048 or has many exposed parameters near the beginning of the input graph in Substance Designer the tool will lag I recommend 512x512 or 1024x1024.
+* In Substance Designer the main Output Size on the graph should be at 0x0 and set to ‘Relative to Parent’. The node outputs should be set to 512x512(Unity Standard) and ‘RelativeToParent’
+* Allegorithmic has a video and a page about optimizing substances for unity: https://www.youtube.com/watch?v=VnhIDRcfAWA https://support.allegorithmic.com/documentation/display/SD5/Performance+Optimization+Guidelines
+* Expect read XML files or prefabs to break when using different versions of this tool. Always save both.
+* Try not to delete objects or rename materials while in play mode (if you do, exit playmode and restart).
+* Try not to use the tool on animated prefabs already created with this tool
+* If you update your material by adding parameters or changing the order in substance designer, you will still be able to read parameters from XML files as long as the names are the same (ex: Wall_Color == Wall_Color).
+* You can play animations on different versions of your material.
+* If your material name in the XML file is different than the name of the material in the inspector (Crystal 1.5 != Crystal 1-6 ) a dialogue prompt will ask you if you want to change the name of the material in the XML file when you press the ‘Toggle Animation’ button on a different object.
 Supported exposed parameters
-• Float
-• Vector2
-• Vector3 
-• Vector4
-• Color (RGB / RGBA)
-• Integers
-• Enum
-• Booleans
-• Output Parameters ($Output Size, $Pixel Size and $Random Seed)
+* Float
+* Vector2
+* Vector3
+* Vector4
+* Color (RGB / RGBA)
+* Integers
+* Enum
+* Booleans
+* Output Parameters ($Output Size, $Pixel Size and $Random Seed)
 
 Instructions to use tool:
-• Open Project
-• Select object with a ProceduralMaterial component attached in the Hierarchy
-• Press play
-• Open tool (Window>SubstanceTween)
-• Change sliders, create keyframes, save prefab when done.
+* Open Project
+* Select object with a ProceduralMaterial component attached in the Hierarchy
+* Press play
+* Open tool (Window>SubstanceTween)
+* Change sliders, create keyframes, save prefab when done.
 
 Possible future features:
-• Lerp between Position/Rotation/Scale
-• Audio: instead of animated based on time it will also be able to lerp based on audio frequency's. 
-• XML preview: when you save a XML file it will possibly save a prefab/preview image (like material icons in your project view)
-• Mobile tester: small mobile version where you can edit materials on the go and send XML files/prefabs to a server
-• Save material without creating a prefab: at the moment if all you want to do is change a couple variables without animating them or creating a prefab I would use the default sliders in the inspector view and not use this tool.
+* Lerp between Position/Rotation/Scale
+* Audio: instead of animated based on time it will also be able to lerp based on audio frequency's. 
+* XML preview: when you save a XML file it will possibly save a prefab/preview image (like material icons in your project view)
+* Mobile tester: small mobile version where you can edit materials on the go and send XML files/prefabs to a server
+* Save material without creating a prefab: at the moment if all you want to do is change a couple variables without animating them or creating a prefab I would use the default sliders in the inspector view and not use this tool.
 Bugs/Possible Bugs/Other Notes:
-• If you use this tool on an animated prefab in the asset folder and overwrite the prefab you are working on unity can crash.
-• If you use this tool on an animated prefab in the asset folder and create a new prefab the animation can glitch.
-• My material is Pink after I create Prefabs? – This should never happen, if it does manually reapply your ProceduralMaterial on your object and everything should work again.  
-• My material is completely black/white - This should never happen, if it does reset the material (Right click material in inspector view > reset). 
-• The tool is blank! - Select a Procedural material and then select the tool window. If that does not work restart unity or the current scene.
-• In rare cases the Reset button on the tool will not work - try selecting a second object, then the first and try again. if that doesn’t work try setting the value to minimum/maximum and then press reset. If all else fails restart the tool or exit/enter playmode again. The tool saves the material when the tool is first opened in play mode or a material is selected for the first time in play mode.
-• If your XML file is somehow corrupt (0kb file) and you try to read it unity will give you an error saying something like "XmlException: Document element did not appear. Line 1, position 1". If you read a Xml file that is not corrupt after that without restarting the tool your material might look blurry - To fix this, as soon as you read a corrupt xml file restart the tool and read a file that is not corrupt.
-• If a prefab in the scene has any errors or missing data try right clicking the PrefabProperties script and select ‘Revert to prefab’
+* If you use this tool on an animated prefab in the asset folder and overwrite the prefab you are working on unity can crash.
+* If you use this tool on an animated prefab in the asset folder and create a new prefab the animation can glitch.
+* My material is Pink after I create Prefabs? – This should never happen, if it does manually reapply your ProceduralMaterial on your object and everything should work again.  
+* My material is completely black/white - This should never happen, if it does reset the material (Right click material in inspector view > reset). 
+* The tool is blank! - Select a Procedural material and then select the tool window. If that does not work restart unity or the current scene.
+* In rare cases the Reset button on the tool will not work - try selecting a second object, then the first and try again. if that doesn’t work try setting the value to minimum/maximum and then press reset. If all else fails restart the tool or exit/enter playmode again. The tool saves the material when the tool is first opened in play mode or a material is selected for the first time in play mode.
+* If your XML file is somehow corrupt (0kb file) and you try to read it unity will give you an error saying something like "XmlException: Document element did not appear. Line 1, position 1". If you read a Xml file that is not corrupt after that without restarting the tool your material might look blurry - To fix this, as soon as you read a corrupt xml file restart the tool and read a file that is not corrupt.
+* If a prefab in the scene has any errors or missing data try right clicking the PrefabProperties script and select ‘Revert to prefab’
 * For v2.5 - The animation curve values/keys are not supposed to be manipulated in the editor curve window. Only the tangents are supposed to be manipulated 
 * Unity 2017.1 might crash when displaying dialog boxes after a long period of time. I noticed this was fixed in 2017.1.1p4
 Changelog:
