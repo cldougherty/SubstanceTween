@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9C1F6947-EF33-618B-9FC2-457787E3EA3D}") = "SubstanceTween v2.0", "Assembly-CSharp.csproj", "{636A00ED-749D-D62E-FBF5-906C257FA34C}"
+EndProject
+Project("{9C1F6947-EF33-618B-9FC2-457787E3EA3D}") = "SubstanceTween v2.0", "Assembly-CSharp-Editor.csproj", "{8DCD09CE-CD66-A361-468B-F90C3D7A0B80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{636A00ED-749D-D62E-FBF5-906C257FA34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636A00ED-749D-D62E-FBF5-906C257FA34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636A00ED-749D-D62E-FBF5-906C257FA34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636A00ED-749D-D62E-FBF5-906C257FA34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCD09CE-CD66-A361-468B-F90C3D7A0B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCD09CE-CD66-A361-468B-F90C3D7A0B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCD09CE-CD66-A361-468B-F90C3D7A0B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCD09CE-CD66-A361-468B-F90C3D7A0B80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

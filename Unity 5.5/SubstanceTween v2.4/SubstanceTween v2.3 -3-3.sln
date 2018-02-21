@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4910412A-6292-791E-4BB6-7D14800588CF}") = "SubstanceTween v2.3 -3-3", "Assembly-CSharp.csproj", "{F4830FC0-5CAD-9232-8297-94B9736F2003}"
+EndProject
+Project("{4910412A-6292-791E-4BB6-7D14800588CF}") = "SubstanceTween v2.3 -3-3", "Assembly-CSharp-Editor.csproj", "{6BEEB0AC-515F-F059-50F3-D4E8C00AA6F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4830FC0-5CAD-9232-8297-94B9736F2003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4830FC0-5CAD-9232-8297-94B9736F2003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4830FC0-5CAD-9232-8297-94B9736F2003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4830FC0-5CAD-9232-8297-94B9736F2003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEEB0AC-515F-F059-50F3-D4E8C00AA6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEEB0AC-515F-F059-50F3-D4E8C00AA6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEEB0AC-515F-F059-50F3-D4E8C00AA6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEEB0AC-515F-F059-50F3-D4E8C00AA6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

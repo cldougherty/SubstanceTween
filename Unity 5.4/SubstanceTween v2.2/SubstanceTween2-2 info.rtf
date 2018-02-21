@@ -1,0 +1,88 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 SubstanceTween v2.2\par
+11/29/2016\par
+Chris Dougherty\par
+chris.ll.dougherty@gmail.com\par
+chris.dougherty@students.aie.edu.au\par
+{\field{\*\fldinst{HYPERLINK "https://www.linkedin.com/in/archarchaic"}}{\fldrslt{\ul\cf1 https://www.linkedin.com/in/archarchaic}}}\f0\fs22\par
+\par
+What does this tool do?\par
+This tool takes exposed parameters from substance designer files(SBAR) and allows you to create up to two keyframes  by manipulating the exposed Variables and animating them.\par
+You can Write  variables to XML files and read from them as well.\par
+When you are done creating your animated object you can save the object as a Prefab for future use.\par
+\par
+Notes:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 This tool is meant for simple/optimized materials. if you have a giant  Substance Material that is 2048-2048 or has many exposed parameters near the beginning of the input graph in Substance Designer the tool will lag. There are some materials that I have made and included in this  project that are not meant to be used by this tool(Sand,Rock). I have included them as examples.  \par
+{\pntext\f1\'B7\tab}Allegorithmic has a video about optimizing substances for unity: {\field{\*\fldinst{HYPERLINK "https://www.youtube.com/watch?v=VnhIDRcfAWA"}}{\fldrslt{\ul\cf1 https://www.youtube.com/watch?v=VnhIDRcfAWA}}}\f0\fs22\par
+{\pntext\f1\'B7\tab}The Rock material has a boolean(true/false) called Surface Mode in the inspector. you will not be able to see the diffrence in some variables depending on which mode it is set to. \par
+{\pntext\f1\'B7\tab}Expect  read XML files to break when using diffrent versions of this tool\par
+{\pntext\f1\'B7\tab}Try not to delete objects while in play mode(if you do, exit playmode and restart). \par
+{\pntext\f1\'B7\tab}Try not to use the tool on animated prefabs already created with this tool\par
+\pard\sa200\sl276\slmult1\par
+Supported exposed parameters\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Float\par
+{\pntext\f1\'B7\tab}Vector2\par
+{\pntext\f1\'B7\tab}Vector3 \par
+{\pntext\f1\'B7\tab}Vector4\par
+{\pntext\f1\'B7\tab}Color(RGB / RGBA)\par
+\pard\li360\sa200\sl276\slmult1\par
+\par
+\pard\sa200\sl276\slmult1 Most reliable method without bugs:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Select object in Hierarchy\par
+{\pntext\f1\'B7\tab}Press play\par
+{\pntext\f1\'B7\tab}Open tool  (Window>SubstanceTween)\par
+\pard\sa200\sl276\slmult1\par
+Possible future features:\par
+\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Add object Rotation/Scale instead of only position\par
+{\pntext\f1\'B7\tab}Lerp between Position/Rotation/Scale\par
+{\pntext\f1\'B7\tab}Ability to cause the emission to flicker.\par
+{\pntext\f1\'B7\tab}Sorting XML files when reading them: At the moment if you  change the order of the exposed parameters or add more of them in substance designer and try to import the XML from a previous version of the material it will try and use the previous list.\par
+{\pntext\f1\'B7\tab}Adding booleans(True/False): Sometimes in substance designer you will only have a parameter work if another one is turned on or at a specific value. \par
+{\pntext\f1\'B7\tab}Audio: instead of lerping based on time it will also be able to lerp based on audio frequency's. \par
+{\pntext\f1\'B7\tab}Increased performance: at the moment the object will lerp between values even if they don't change. I will also add a option to use RebuildTextures() instead of RebuildTexturesImmediately() which will speed up the framerate but the animation might be slower.\par
+{\pntext\f1\'B7\tab}XML preview: when you save a XML file it will possibly save a prefab/preview image(like material icons in your  project view)\par
+{\pntext\f1\'B7\tab}Mobile tester: small mobile version where you can edit materials on the go and  send XML files/prefabs to a server\par
+{\pntext\f1\'B7\tab}Save material without creating a prefab: at the moment if all you want to do is change a couple variables without animating them or creating a prefab I would use the default sliders in the inspector view and not use this tool. \par
+\pard\sa200\sl276\slmult1\par
+Bugs:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 If you use this tool on a animated prefab in the asset folder and overwrite the prefab you are working on unity will crash.\par
+{\pntext\f1\'B7\tab}If you use this tool on a animated prefab in the asset folder and create a new prefab the animation will glitch.\par
+{\pntext\f1\'B7\tab}My material is Pink after I create Prefabs!? - manually reapply your proceduralMaterial  on your object and everything should work again.  \par
+{\pntext\f1\'B7\tab}My material is completely black/white or looks wrong - Reset Material (Right click material in inspector view>  reset button). \par
+{\pntext\f1\'B7\tab}Error when creating a second transition before the first - don't do that. (Will be fixed soon)\par
+{\pntext\f1\'B7\tab}The tool is blank! - Select a Procedural material and then select the tool window. If that does not work restart unity.\par
+{\pntext\f1\'B7\tab}Reading XML files with the sand Material can sometimes have unexpected results.\par
+{\pntext\f1\'B7\tab}In rare cases the Reset button on the tool will not work - try selecting a second object, then the first and try again. if that doesnt work restart the tool or exit/enter playmode again.\par
+\pard\sa200\sl276\slmult1\par
+Changelog:\par
+\par
+2.2\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Added a button for debug information(lists changes for materials, saves information about written/read Xml files  and created prefabs).\par
+{\pntext\f1\'B7\tab}Readded ability to select/work on other objects without bugs.  \par
+{\pntext\f1\'B7\tab}Fixed bug where the created prefab would not have any saved values unless you selected it before exiting play mode.\par
+{\pntext\f1\'B7\tab}Fixed bug when resetting vectors or trying to set vectors to the minimum/maximum would do nothing.\par
+{\pntext\f1\'B7\tab}Fixed bug where  if you select objects with no renderer or procedural material in a specific  order it would crash the tool. \par
+{\pntext\f1\'B7\tab}Fixed bug where if you selected objects, restarted the tool and created a prefab it would make the material pink(Unity material error).\par
+{\pntext\f1\'B7\tab}Made it so you cannot open the tool from Window>SubstanceTween if you have nothing selected or if the object does not have the required component(Renderer/ProceduralMaterial) .\par
+\pard\sa200\sl276\slmult1\par
+2.1\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Remade XML read/write(Now using save box instead of manually typing in file path)\par
+{\pntext\f1\'B7\tab}Remade transition/reset buttons\par
+{\pntext\f1\'B7\tab}Remade Prefab button (Now with save box and you are able to name prefabs)\par
+{\pntext\f1\'B7\tab}Readded Sun controls (Not part of tool yet)\par
+{\pntext\f1\'B7\tab}Readded _EmissionColor and _MainTex\par
+\pard\sa200\sl276\slmult1\par
+2.0\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Added Position slider\par
+{\pntext\f1\'B7\tab}Remade tool using editor scripting instead of using old OnGUI code (Lacks any buttons including XML read/write,  resetting to default or saving object as prefab)\par
+{\pntext\f1\'B7\tab}cant edit _EmissionColor or _MainTex\par
+{\pntext\f1\'B7\tab}Color picker instead of sliders\par
+{\pntext\f1\'B7\tab}Converted all old Arraylists into Lists\par
+\pard\sa200\sl276\slmult1 1.0 - 1.9\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Old version of tool that was written with Unity 4 OnGUI code. \par
+{\pntext\f1\'B7\tab}In these versions you had to  manually type the path for XML files instead of using a save/open box.\par
+{\pntext\f1\'B7\tab}Used old Arraylists\par
+}
+ 

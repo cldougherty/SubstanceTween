@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MaterialVariableListHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PropertyMaterialName>Crystal1-11</PropertyMaterialName>
+  <animationTime>5</animationTime>
+  <PropertyName>
+    <string>$outputsize</string>
+    <string>$pixelsize</string>
+    <string>$randomseed</string>
+    <string>Base_Color</string>
+    <string>Crystal_Levelinmid</string>
+    <string>Crystal_Opacity</string>
+    <string>Crystal_Warp</string>
+    <string>Crystal_Levelouthigh</string>
+    <string>Crystal_Levelinlow</string>
+    <string>Crystal_Levelinhigh</string>
+    <string>Crystal_Leveloutlow</string>
+    <string>Crystal_Normal_Intensity</string>
+    <string>Crystal_Disorder</string>
+    <string>Scratches_Pattern_size_width</string>
+    <string>Scratches_Pattern_size_height</string>
+    <string>Scratches_Disorder</string>
+    <string>Scratches_Opacity</string>
+    <string>Grunge_Map5_Balance</string>
+    <string>Grunge_Map5_Contrast</string>
+    <string>Grunge_Map5_Brush_Pattern</string>
+    <string>Roughness_Color</string>
+    <string>Metallic_Color</string>
+  </PropertyName>
+  <PropertyFloat>
+    <float>0</float>
+    <float>0</float>
+    <float>0.4</float>
+    <float>0</float>
+    <float>1</float>
+    <float>0</float>
+    <float>1</float>
+    <float>0</float>
+    <float>3</float>
+    <float>50</float>
+    <float>100</float>
+    <float>100</float>
+    <float>0</float>
+    <float>0.25</float>
+    <float>1</float>
+    <float>0.5</float>
+    <float>0</float>
+  </PropertyFloat>
+  <PropertyColor>
+    <Color>
+      <r>0</r>
+      <g>0.7608514</g>
+      <b>0.9117647</b>
+      <a>1</a>
+    </Color>
+    <Color>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+      <a>1</a>
+    </Color>
+    <Color>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+      <a>1</a>
+    </Color>
+  </PropertyColor>
+  <PropertyVector2>
+    <Vector2>
+      <x>9</x>
+      <y>9</y>
+    </Vector2>
+    <Vector2>
+      <x>1</x>
+      <y>1</y>
+    </Vector2>
+  </PropertyVector2>
+  <PropertyVector3 />
+  <PropertyVector4 />
+  <PropertyEnum />
+  <PropertyBool />
+  <stdColor />
+  <emissionColor>
+    <r>0</r>
+    <g>2.309</g>
+    <b>2.213455</b>
+    <a>1</a>
+  </emissionColor>
+  <MainTex>
+    <x>0</x>
+    <y>0</y>
+  </MainTex>
+  <myKeys />
+  <myValues />
+  <myFloatKeys>
+    <string>$randomseed</string>
+    <string>Crystal_Levelinmid</string>
+    <string>Crystal_Opacity</string>
+    <string>Crystal_Warp</string>
+    <string>Crystal_Levelouthigh</string>
+    <string>Crystal_Levelinlow</string>
+    <string>Crystal_Levelinhigh</string>
+    <string>Crystal_Leveloutlow</string>
+    <string>Crystal_Normal_Intensity</string>
+    <string>Crystal_Disorder</string>
+    <string>Scratches_Pattern_size_width</string>
+    <string>Scratches_Pattern_size_height</string>
+    <string>Scratches_Disorder</string>
+    <string>Scratches_Opacity</string>
+    <string>Grunge_Map5_Balance</string>
+    <string>Grunge_Map5_Contrast</string>
+    <string>Grunge_Map5_Brush_Pattern</string>
+  </myFloatKeys>
+  <myFloatValues>
+    <float>0</float>
+    <float>0</float>
+    <float>0.4</float>
+    <float>0</float>
+    <float>1</float>
+    <float>0</float>
+    <float>1</float>
+    <float>0</float>
+    <float>3</float>
+    <float>50</float>
+    <float>100</float>
+    <float>100</float>
+    <float>0</float>
+    <float>0.25</float>
+    <float>1</float>
+    <float>0.5</float>
+    <float>0</float>
+  </myFloatValues>
+  <myColorKeys>
+    <string>Base_Color</string>
+    <string>Roughness_Color</string>
+    <string>Metallic_Color</string>
+  </myColorKeys>
+  <myColorValues>
+    <Color>
+      <r>0</r>
+      <g>0.7608514</g>
+      <b>0.9117647</b>
+      <a>1</a>
+    </Color>
+    <Color>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+      <a>1</a>
+    </Color>
+    <Color>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+      <a>1</a>
+    </Color>
+  </myColorValues>
+  <myVector2Keys>
+    <string>$outputsize</string>
+    <string>$pixelsize</string>
+  </myVector2Keys>
+  <myVector2Values>
+    <Vector2>
+      <x>9</x>
+      <y>9</y>
+    </Vector2>
+    <Vector2>
+      <x>1</x>
+      <y>1</y>
+    </Vector2>
+  </myVector2Values>
+  <myVector3Keys />
+  <myVector3Values />
+  <myVector4Keys />
+  <myVector4Values />
+  <myBooleanKeys />
+  <myBooleanValues />
+  <myEnumKeys />
+  <myEnumValues />
+  <AnimationCurveKeyframeList>
+    <Keyframe>
+      <time>15</time>
+      <value>15</value>
+      <inTangent>1</inTangent>
+      <outTangent>0</outTangent>
+      <tangentMode>0</tangentMode>
+    </Keyframe>
+  </AnimationCurveKeyframeList>
+  <AnimationCurveTangentList />
+  <variableAnimationType />
+  <hasParametersWithoutRange>true</hasParametersWithoutRange>
+</MaterialVariableListHolder>

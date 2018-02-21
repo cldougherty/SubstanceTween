@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 2867c67899db66349807354efa97e55c
+timeCreated: 1479978470
+licenseType: Free
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Wall
+    prototypeName: Wall
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $pixelsize
+      value:
+        scalar[0]: 1
+        scalar[1]: 1
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Amount
+      value:
+        scalar[0]: 8
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Intensity
+      value:
+        scalar[0]: 5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Target_Color
+      value:
+        scalar[0]: 0.560784
+        scalar[1]: 0.494118
+        scalar[2]: 0.470588
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Scale
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Scale_Variation
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Interstice
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Offset
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Offset_Random
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Luminance_Variation_Contrast
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Free_Rotation
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Free_Rotation_Random
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Fixed_Rotation
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Fixed_Rotation_Random
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick_Random_Mask
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick__Lines_Hue
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick__Lines_Saturation
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Brick__Lines_Lightness
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Opacity
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Source_Color
+      value:
+        scalar[0]: 0.501961
+        scalar[1]: 0.501961
+        scalar[2]: 0.501961
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Target_Color
+      value:
+        scalar[0]: 0.501961
+        scalar[1]: 0.501961
+        scalar[2]: 0.501961
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Source_Range
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Threshold
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Level_In_Low
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Level_In_High
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Level_In_Mid
+      value:
+        scalar[0]: 0.283245
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Level_Out_Low
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Level_Out_High
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Opacity
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Disorder
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Warp_Intensity
+      value:
+        scalar[0]: 50
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Flow
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Pattern_Lenght
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Pattern_Width
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Source_Color
+      value:
+        scalar[0]: 0.501961
+        scalar[1]: 0.501961
+        scalar[2]: 0.501961
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Target_Color
+      value:
+        scalar[0]: 0.501961
+        scalar[1]: 0.501961
+        scalar[2]: 0.501961
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Source_Range
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Fluid__Threshold
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Noise__Disorder
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Noise_Roughness_Target_Color
+      value:
+        scalar[0]: 0.501961
+        scalar[1]: 0.501961
+        scalar[2]: 0.501961
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Noise__Intensity
+      value:
+        scalar[0]: 10
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks__Opacity
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks__Intensity
+      value:
+        scalar[0]: 6
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks__Distance
+      value:
+        scalar[0]: 10
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks__Disorder
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks_Level_In_Low
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks_Level_In_High
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Cracks_Level_In_Mid
+      value:
+        scalar[0]: 0.7
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Metallic_Output_Color
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 42
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+      - first:
+          name: _BumpMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailAlbedoMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailMask
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailNormalMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _EmissionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MainTex
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MetallicGlossMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _OcclusionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _ParallaxMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - first:
+          name: _BumpScale
+        second: 1
+      - first:
+          name: _Cutoff
+        second: 0.5
+      - first:
+          name: _DetailNormalMapScale
+        second: 1
+      - first:
+          name: _DstBlend
+        second: 0
+      - first:
+          name: _GlossMapScale
+        second: 1
+      - first:
+          name: _Glossiness
+        second: 0.5
+      - first:
+          name: _GlossyReflections
+        second: 1
+      - first:
+          name: _Metallic
+        second: 0
+      - first:
+          name: _Mode
+        second: 0
+      - first:
+          name: _OcclusionStrength
+        second: 1
+      - first:
+          name: _Parallax
+        second: 0.02
+      - first:
+          name: _SmoothnessTextureChannel
+        second: 0
+      - first:
+          name: _SpecularHighlights
+        second: 1
+      - first:
+          name: _SrcBlend
+        second: 1
+      - first:
+          name: _UVSec
+        second: 0
+      - first:
+          name: _ZWrite
+        second: 1
+      colors:
+      - first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+    textureParameters:
+    - name: Wall_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_basecolor (Clone) (Clone) (Clone) (Clone) (Clone)
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_metallic (Clone) (Clone) (Clone) (Clone) (Clone)
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_basecolor (Clone)
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Wall_metallic (Clone)
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 1920011835
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 1920011833
+    - shaderProp:
+        name: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 1920011837
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

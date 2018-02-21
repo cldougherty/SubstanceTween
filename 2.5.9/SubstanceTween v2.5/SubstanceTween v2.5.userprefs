@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="SubstanceTween v2.5.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Editor\SubstanceToolEditor.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Editor\SubstanceToolEditor.cs" Line="989" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
