@@ -1,4 +1,4 @@
-# SubstanceTween
+﻿# SubstanceTween
 What does this Unity tool do?
 This tool takes exposed parameters from substance designer files(SBAR) and allows you to create multiple key frames by manipulating the exposed Variables, creating transitions and animating them.
 You can Write variables to XML files and read from them as well.
@@ -39,9 +39,10 @@ Supported exposed parameters
 Instructions to use tool:
 * Open Project
 * Select object with a ProceduralMaterial component attached in the Hierarchy
+* Add ‘SubstanceTool’ component from inspector
 * Press play
-* Open tool (Window>SubstanceTween)
-* Change sliders, create keyframes, save prefab when done.
+* Change sliders, create keyframes
+* When you are ready to save your animated object choose ‘Save-Load’ from the toolbar and select ‘Save Prefab’. It might be a good idea to backup keyframes as XML/JSON files before or after you save a prefab.
 
 Possible future features:
 * Lerp between Position/Rotation/Scale
@@ -50,8 +51,9 @@ Possible future features:
 * Mobile tester: small mobile version where you can edit materials on the go and send XML files/prefabs to a server
 * Save material without creating a prefab: at the moment if all you want to do is change a couple variables without animating them or creating a prefab I would use the default sliders in the inspector view and not use this tool.
 Bugs/Possible Bugs/Other Notes:
-* If you use this tool on an animated prefab in the asset folder and overwrite the prefab you are working on unity can crash.
-* If you use this tool on an animated prefab in the asset folder and create a new prefab the animation can glitch.
+
+* Error when creating animated prefabs by dragging object to project view from hierarchy instead of using the built in menu.
+* If the icon for an animated prefab is pink, right click it and select ‘Reimport’
 * My material is Pink after I create Prefabs? – This should never happen, if it does manually reapply your ProceduralMaterial on your object and everything should work again.  
 * My material is completely black/white - This should never happen, if it does reset the material (Right click material in inspector view > reset). 
 * The tool is blank! - Select a Procedural material and then select the tool window. If that does not work restart unity or the current scene.
@@ -61,6 +63,29 @@ Bugs/Possible Bugs/Other Notes:
 * For v2.5 - The animation curve values/keys are not supposed to be manipulated in the editor curve window. Only the tangents are supposed to be manipulated 
 * Unity 2017.1 might crash when displaying dialog boxes after a long period of time. I noticed this was fixed in 2017.1.1p4
 Changelog:
+
+2.5.9 – 2/21/18 – 2017.2.0f3  (2017.3.0 works but gives warnings that can be ignored.   )
+Will make full release notes soon:
+* The tool is now opened by adding a “SubstanceTool” component to an object that has a ProceduralMaterial attached.
+* This tool is now used in the inspector instead of a EditorWindow
+* Optimization: Broke script up into smaller Utility scripts.
+* Feature: Tool now works while in Edit mode
+* Feature: Can update animated prefab with tool instead of using prefabProperties script
+* Feature: Replaced Lists with Reorderable lists
+* Feature: You can now Add LODs to prefabs 
+* Feature: Add/Remove Keyframes in the built in curve editor
+* Feature: Created gameplay tools (animation trigger, spawn animated prefabs, prefab follow)
+* Feature: Added ability to update parameters for all keyframes.
+* Feature: Added button for deleting all keyframes
+* Feature: Created timeline for scrubbing through animation.
+* Feature: Added scripts for Unit testing. 
+* Optimization: Increased Performance for animated prefabs (removed nested for loops)
+* Optimization: When creating the prefab I delete non animating parameters
+* Optimization: If I choose a preset in the curve editor the window will close.
+* Optimization: Made prefabProperties more user friendly.
+* Fixed Bug: Reading more than 10 keyframes from XML files would mess up the order of keyframes.
+
+
 2.5 – 10/20/17 – Unity 5.6.0f3 / 2017.1.1p4 /2017.2.0f3
 * Feature: Added Toolbar to use for all main functions
 * Feature: Tool can now animate Enum and Boolean values
