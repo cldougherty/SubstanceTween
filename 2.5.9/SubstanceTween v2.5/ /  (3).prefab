@@ -1,0 +1,522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1484383771744922}
+  m_IsPrefabParent: 1
+--- !u!1 &1484383771744922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4437923482988308}
+  - component: {fileID: 33407661363955090}
+  - component: {fileID: 135719448183338530}
+  - component: {fileID: 23975551058132936}
+  - component: {fileID: 114554010421422892}
+  - component: {fileID: 114452369001214378}
+  - component: {fileID: 114151705932830392}
+  m_Layer: 0
+  m_Name: CrystalEditMode2Keyframes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437923482988308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 1.29, z: -7.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23975551058132936
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 1992429328, guid: 8ce1e9edc7b00d04ab4d5bc4a31f85cd, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33407661363955090
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114151705932830392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc74fdff01fd084790a2f100a5a34a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animateBackwards: 0
+  animateOnStart: 1
+  animationType: 0
+  playOnce: 0
+  animationDelay: 1
+  animationStartKeyframe: 0
+  animationEndKeyframe: 0
+  animationToggle: 0
+  animateBasedOnTime: 1
+  prefabAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 5
+      value: 5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  prefabAnimationCurveBackup:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 5
+      value: 5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  customObject: {fileID: 0}
+  animateObjectBasedOnPosition: 0
+  objectMinDistance: 3
+  objectMaxDistance: 20
+  isCustomInstance: 0
+  useSharedMaterial: 1
+  rebuildSubstanceImmediately: 0
+  cacheAtStartup: 1
+  animateOutputParameters: 1
+  mySubstanceProcessorUsage: 0
+  myProceduralCacheSize: 3
+  LodNearDistance: 10
+  LodMidDistance: 20
+  LodFarDistance: 30
+  deleteOldListValuesOnStart: 0
+  flickerEnabled: 0
+  flickerFloatToggle: 0
+  flickerColor3Toggle: 0
+  flickerColor4Toggle: 0
+  flickerVector2Toggle: 0
+  flickerVector3Toggle: 0
+  flickerVector4Toggle: 0
+  flickerEmissionToggle: 0
+  flickerMin: 0.2
+  flickerMax: 1
+  rend: {fileID: 23975551058132936}
+  substance: {fileID: 1992429328, guid: 8ce1e9edc7b00d04ab4d5bc4a31f85cd, type: 3}
+  keyFrames: 2
+  currentKeyframeIndex: 0
+  currentAnimationTime: 0
+  keyFrameTimes:
+  - 5
+  - 5
+  keyFrameTimesOriginal:
+  - 5
+  - 5
+  MaterialVariableKeyframeList:
+  - PropertyMaterialName: Crystal1-11
+    animationTime: 5
+    PropertyName:
+    - $outputsize
+    - $pixelsize
+    - $randomseed
+    - Base_Color
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    - Roughness_Color
+    - Metallic_Color
+    PropertyFloat:
+    - 0
+    - 0
+    - 0.4
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 0
+    - 100
+    - 100
+    - 0
+    - 0.25
+    - 1
+    - 0.5
+    - 0
+    PropertyColor:
+    - {r: 0.9117647, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    PropertyVector2:
+    - {x: 9, y: 9}
+    - {x: 1, y: 1}
+    PropertyVector3: []
+    PropertyVector4: []
+    PropertyEnum: 
+    PropertyBool: 
+    stdColor: []
+    emissionColor: {r: 2.3090005, g: 0, b: 0, a: 1}
+    MainTex: {x: 0, y: 0}
+    myKeys: []
+    myValues: []
+    myFloatKeys:
+    - $randomseed
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    myFloatValues:
+    - 0
+    - 0
+    - 0.4
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 0
+    - 100
+    - 100
+    - 0
+    - 0.25
+    - 1
+    - 0.5
+    - 0
+    myColorKeys:
+    - Base_Color
+    - Roughness_Color
+    - Metallic_Color
+    myColorValues:
+    - {r: 0.9117647, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    myVector2Keys:
+    - $outputsize
+    - $pixelsize
+    myVector2Values:
+    - {x: 9, y: 9}
+    - {x: 1, y: 1}
+    myVector3Keys: []
+    myVector3Values: []
+    myVector4Keys: []
+    myVector4Values: []
+    myBooleanKeys: []
+    myBooleanValues: 
+    myEnumKeys: []
+    myEnumValues: 
+    AnimationCurveTangentList: []
+    variableAnimationType: 
+    hasParametersWithoutRange: 1
+  - PropertyMaterialName: Crystal1-11
+    animationTime: 5
+    PropertyName:
+    - $outputsize
+    - $pixelsize
+    - $randomseed
+    - Base_Color
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    - Roughness_Color
+    - Metallic_Color
+    PropertyFloat:
+    - 0
+    - 0
+    - 0.4
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 100
+    - 100
+    - 100
+    - 0
+    - 0.25
+    - 1
+    - 0.5
+    - 0
+    PropertyColor:
+    - {r: 0.9117647, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    PropertyVector2:
+    - {x: 9, y: 9}
+    - {x: 1, y: 1}
+    PropertyVector3: []
+    PropertyVector4: []
+    PropertyEnum: 
+    PropertyBool: 
+    stdColor: []
+    emissionColor: {r: 2.3090005, g: 0, b: 0, a: 1}
+    MainTex: {x: 0, y: 0}
+    myKeys: []
+    myValues: []
+    myFloatKeys:
+    - $randomseed
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    myFloatValues:
+    - 0
+    - 0
+    - 0.4
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 100
+    - 100
+    - 100
+    - 0
+    - 0.25
+    - 1
+    - 0.5
+    - 0
+    myColorKeys:
+    - Base_Color
+    - Roughness_Color
+    - Metallic_Color
+    myColorValues:
+    - {r: 0.9117647, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    myVector2Keys:
+    - $outputsize
+    - $pixelsize
+    myVector2Values:
+    - {x: 9, y: 9}
+    - {x: 1, y: 1}
+    myVector3Keys: []
+    myVector3Values: []
+    myVector4Keys: []
+    myVector4Values: []
+    myBooleanKeys: []
+    myBooleanValues: 
+    myEnumKeys: []
+    myEnumValues: 
+    AnimationCurveTangentList: []
+    variableAnimationType: 
+    hasParametersWithoutRange: 1
+  MaterialVariableKeyframeDictionaryList:
+  - PropertyMaterialName: Crystal1-11
+    animationTime: 5
+    PropertyName:
+    - $outputsize
+    - $pixelsize
+    - $randomseed
+    - Base_Color
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    - Roughness_Color
+    - Metallic_Color
+    emissionColor: {r: 2.3090005, g: 0, b: 0, a: 1}
+    MainTex: {x: 0, y: 0}
+    variableAnimationType: 
+    hasParametersWithoutRange: 1
+  - PropertyMaterialName: Crystal1-11
+    animationTime: 5
+    PropertyName:
+    - $outputsize
+    - $pixelsize
+    - $randomseed
+    - Base_Color
+    - Crystal_Levelinmid
+    - Crystal_Opacity
+    - Crystal_Warp
+    - Crystal_Levelouthigh
+    - Crystal_Levelinlow
+    - Crystal_Levelinhigh
+    - Crystal_Leveloutlow
+    - Crystal_Normal_Intensity
+    - Crystal_Disorder
+    - Scratches_Pattern_size_width
+    - Scratches_Pattern_size_height
+    - Scratches_Disorder
+    - Scratches_Opacity
+    - Grunge_Map5_Balance
+    - Grunge_Map5_Contrast
+    - Grunge_Map5_Brush_Pattern
+    - Roughness_Color
+    - Metallic_Color
+    emissionColor: {r: 2.3090005, g: 0, b: 0, a: 1}
+    MainTex: {x: 0, y: 0}
+    variableAnimationType: 
+    hasParametersWithoutRange: 1
+  lerp: 0
+  curveFloat: 0
+  animationTimeRestartEnd: 0
+  keyframeSum: 5
+  emissionInput: {r: 2.3090005, g: 0, b: 0, a: 1}
+  originalOutputSize: {x: 0, y: 0}
+  animatedParameterNames:
+  - Crystal_Disorder
+--- !u!114 &114452369001214378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4f240361eca8640adf40176b6421af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabObject: {fileID: 1484383771744922}
+--- !u!114 &114554010421422892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ebb9ac74a9e8bd48a4dc61d6d31caf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaterialVariableKeyframeList: []
+--- !u!135 &135719448183338530
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484383771744922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
