@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8ce1e9edc7b00d04ab4d5bc4a31f85cd
-timeCreated: 1519208644
+timeCreated: 1522241449
 licenseType: Free
 SubstanceImporter:
   externalObjects: {}
@@ -13,7 +13,7 @@ SubstanceImporter:
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
     renderQueue: -1
-    lightmapFlags: 2
+    lightmapFlags: 1
     inputs:
     - name: $outputsize
       value:

@@ -2,10 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-//using System.Diagnostics;
+
+/// <summary>
+/// script that goes on object when tool starts and in the build 
+/// </summary>
 
 [System.Serializable]
-//[ExecuteInEditMode]
 public class PrefabProperties : MonoBehaviour
 { // This script automatically gets added to the prefab once it is created
     public ProceduralPropertyDescription[] materialVariables;
@@ -37,8 +39,7 @@ public class PrefabProperties : MonoBehaviour
     float distanceLerpCalc = 1;
     float playerDistanceToObject;
    public bool isCustomInstance; // for the spawner object, after certain amount of objects spawned i use shared materials;
-
-
+    
     public bool useSharedMaterial, rebuildSubstanceImmediately, cacheAtStartup, animateOutputParameters;
     public enum MySubstanceProcessorUsage { Unsupported, One, Half, All };
     public MySubstanceProcessorUsage mySubstanceProcessorUsage;
@@ -52,14 +53,10 @@ public class PrefabProperties : MonoBehaviour
     public bool flickerEnabled, flickerFloatToggle, flickerColor3Toggle, flickerColor4Toggle, flickerVector2Toggle, flickerVector3Toggle, flickerVector4Toggle, flickerEmissionToggle;
     public float flickerMin = 0.2f, flickerMax = 1.0f;
     float flickerCalc = 1, flickerFloatCalc = 1, flickerColor3Calc = 1, flickerColor4Calc = 1, flickerVector2Calc = 1, flickerVector3Calc = 1, flickerVector4Calc = 1, flickerEmissionCalc = 1;
-
-
-    //[HideInInspector]
+    
     public Renderer rend;
     public ProceduralMaterial substance;
-    // [HideInInspector]
     public int keyFrames, currentKeyframeIndex;
-    //[HideInInspector]
     public float currentAnimationTime;
     public List<float> keyFrameTimes = new List<float>();
     [HideInInspector]
@@ -67,15 +64,11 @@ public class PrefabProperties : MonoBehaviour
     public List<MaterialVariableListHolder> MaterialVariableKeyframeList = new List<MaterialVariableListHolder>();
     [SerializeField]
     public List<MaterialVariableDictionaryHolder> MaterialVariableKeyframeDictionaryList = new List<MaterialVariableDictionaryHolder>();
-
-
     float currentKeyframeAnimationTime;
     [HideInInspector]
     public float lerp = 0, curveFloat = 0, animationTimeRestartEnd = 0, keyframeSum = 0;
-
     public Color emissionInput;
-
-    public Vector2 originalOutputSize;
+    public Vector2 originalOutputSize; // texture size when starting
     public List<string> animatedParameterNames = new List<string>();
 
     // Use this for initialization
@@ -87,7 +80,6 @@ public class PrefabProperties : MonoBehaviour
     }
     void Start()
     {
-       
         if (substance)
         {
             materialVariables = substance.GetProceduralPropertyDescriptions();
@@ -98,10 +90,9 @@ public class PrefabProperties : MonoBehaviour
             }
         }
         emissionInput = rend.sharedMaterial.GetColor("_EmissionColor");
-        //Debug.Log("Start: " + emissionInput);
         rend.sharedMaterial.SetColor("_EmissionColor", emissionInput);
+        //if (GameObject.FindGameObjectWithTag("Player") != null)
         customObject = GameObject.FindGameObjectWithTag("Player");
-        
         if (animationEndKeyframe == 0)
             animationEndKeyframe = keyFrameTimes.Count;
         currentKeyframeIndex = animationStartKeyframe;
@@ -199,7 +190,6 @@ public class PrefabProperties : MonoBehaviour
                 }
                 if (currentKeyframeIndex <= animationEndKeyframe - 1)
                 {
-                    Debug.Log("2 keyframes?");
                     lerp = Mathf.InverseLerp(prefabAnimationCurve.keys[currentKeyframeIndex].time, prefabAnimationCurve.keys[currentKeyframeIndex + 1].time, curveFloat);
                 }
             }
@@ -300,7 +290,6 @@ public class PrefabProperties : MonoBehaviour
                 }
                 else if ((keyFrameTimes.Count == 2 || (animationEndKeyframe - 1) - animationStartKeyframe == 1) && animateBackwards && currentAnimationTime != currentKeyframeAnimationTime)
                 {
-                    Debug.Log("2 keyframes?");
                     lerp = curveFloat / currentKeyframeAnimationTime;
                 }
             }
@@ -311,7 +300,6 @@ public class PrefabProperties : MonoBehaviour
                 {
                     for (int i = 0; i < animatedMaterialVariables.Count; i++)
                     {
-
                         ProceduralPropertyDescription materialVariable = animatedMaterialVariables[i];
                         ProceduralPropertyType propType = animatedMaterialVariables[i].type;
                         switch (propType)
@@ -385,20 +373,13 @@ public class PrefabProperties : MonoBehaviour
                 }
                 if (rend.sharedMaterial.HasProperty("_EmissionColor") && currentKeyframeIndex + 1 <= MaterialVariableKeyframeDictionaryList.Count - 1)
                 {
-                   // Color curlerp1Emission = MaterialVariableKeyframeDictionaryList[currentKeyframeIndex].emissionColor;
-                    //Color curlerp2Emission = MaterialVariableKeyframeDictionaryList[currentKeyframeIndex + 1].emissionColor;
-                    // if (curlerp1Emission != curlerp2Emission)
                     rend.sharedMaterial.SetColor("_EmissionColor", Color.Lerp(MaterialVariableKeyframeDictionaryList[currentKeyframeIndex].emissionColor, MaterialVariableKeyframeDictionaryList[currentKeyframeIndex + 1].emissionColor, lerp * flickerEmissionCalc));
                 }
                 if (rend.sharedMaterial.HasProperty("_MainTex") && currentKeyframeIndex + 1 <= MaterialVariableKeyframeDictionaryList.Count - 1)
                 {
-                    //Vector2 curlerp1MainTex = MaterialVariableKeyframeDictionaryList[currentKeyframeIndex].MainTex;
-                    //Vector2 curlerp2MainTex = MaterialVariableKeyframeDictionaryList[currentKeyframeIndex + 1].MainTex;
-                    //if (curlerp1MainTex != curlerp2MainTex)
                         rend.sharedMaterial.SetTextureOffset("_MainTex", Vector2.Lerp(MaterialVariableKeyframeDictionaryList[currentKeyframeIndex].MainTex, MaterialVariableKeyframeDictionaryList[currentKeyframeIndex + 1].MainTex, lerp * flickerCalc));
                 }
 
-                //substance.RebuildTextures();
                 if (playerDistanceToObject <= LodNearDistance)
                     substance.SetProceduralVector("$outputsize", originalOutputSize);
                 else if (playerDistanceToObject >= LodNearDistance && playerDistanceToObject <= LodMidDistance)
@@ -409,67 +390,8 @@ public class PrefabProperties : MonoBehaviour
                     substance.RebuildTextures();
                 else if (rebuildSubstanceImmediately && (animateObjectBasedOnPosition == AnimateObjectBasedOnPosition.None || animateObjectBasedOnPosition != AnimateObjectBasedOnPosition.None && rend.isVisible))
                     substance.RebuildTexturesImmediately();
-               // Debug.Log  (playerDistanceToObject + " " +  substance.GetProceduralVector("$outputsize"));
             }
         }
-    }
-
-    void OnValidate() // runs when anything in the inspector or graph changes.
-    {
-#if UNITY_EDITOR
-
-        if (!UnityEditor.EditorWindow.focusedWindow || UnityEditor.EditorWindow.focusedWindow.ToString() != " (UnityEditor.CurveEditorWindow)" ) // if you delete or add a keyframe in the curve editor, Reset keys.
-        {       //if (UnityEditor.Selection.activeGameObject && !UnityEditor.EditorApplication.isPlaying && MaterialVariableKeyframeDictionaryList.Count  <= 0)
-                //ConvertAnimatedListToDictionaryandSet();
-                rend = GetComponent<Renderer>();
-
-            if (UnityEditor.EditorWindow.focusedWindow)
-            {
-                if (keyFrameTimes.Count > keyFrameTimesOriginal.Count) // if the keyframe size is larger than the original number of keyframes delete the extra keyframes.
-                {
-                    int numOfAddedKeyframes = (keyFrameTimes.Count - keyFrameTimesOriginal.Count);
-                    for (int i = 0; i < numOfAddedKeyframes; i++)
-                    {
-                        keyFrameTimes.RemoveAt(keyFrameTimes.Count - 1);
-                    }
-                }
-                List<Keyframe> tmpKeyframes = new List<Keyframe>();
-                if (prefabAnimationCurve != null && prefabAnimationCurve.length > 0)
-                {
-                    tmpKeyframes = prefabAnimationCurve.keys.ToList();
-                    keyframeSum = 0;
-                    if (prefabAnimationCurve.keys.Count() >= 1 && keyFrameTimes.Count > 1)
-                    {
-                        for (int j = keyFrameTimes.Count() - 1; j > 0; j--)//remove all keys
-                            prefabAnimationCurve.RemoveKey(j);
-                    }
-                    for (int j = 0; j < keyFrameTimes.Count(); j++)//rewrite keys with changed times
-                    {
-                        prefabAnimationCurve.AddKey(new Keyframe(keyframeSum, keyframeSum, tmpKeyframes[j].inTangent, tmpKeyframes[j].outTangent));
-                        if (j == 0)
-                            UnityEditor.AnimationUtility.SetKeyBroken(prefabAnimationCurve, 0, true);
-                        keyframeSum += keyFrameTimes[j];
-                    }
-                    if (keyFrameTimes.Count > 1)
-                        keyframeSum -= keyFrameTimes[keyFrameTimes.Count - 1];
-
-                    if (animationTimeRestartEnd > keyframeSum) //Reset animation variables
-                    {
-                        currentAnimationTime = 0;
-                        currentKeyframeIndex = 0;
-                        animationTimeRestartEnd = 0;
-                    }
-                    if (prefabAnimationCurve != null && prefabAnimationCurveBackup != null)
-                        prefabAnimationCurveBackup.keys = prefabAnimationCurve.keys;
-                }
-            }
-        }
-        if (UnityEditor.EditorWindow.focusedWindow && UnityEditor.EditorWindow.focusedWindow.ToString() == " (UnityEditor.CurveEditorWindow)" && prefabAnimationCurve.keys.Count() != prefabAnimationCurveBackup.keys.Count()) // if you delete or add a keyframe in the curve editor, Reset keys.
-        {
-            prefabAnimationCurve.keys = prefabAnimationCurveBackup.keys;
-        }
-        CalculateAnimationStartTime(animationStartKeyframe);
-#endif
     }
 
     public static Vector4 StringToVector(string startVector, int VectorAmount)
@@ -575,29 +497,22 @@ public class PrefabProperties : MonoBehaviour
     {
         if (gameObject.GetComponent<PrefabProperties>().enabled)
         {
-
             rend = GetComponent<Renderer>();
-
 #if UNITY_EDITOR
-
-            Debug.Log(UnityEditor.PrefabUtility.GetPrefabType(this));
+            if (UnityEditor.Selection.activeGameObject != null && UnityEditor.Selection.activeGameObject.GetComponent<SubstanceTool>() != null)
+            useSharedMaterial = true;
             if (UnityEditor.PrefabUtility.GetPrefabType(this) == UnityEditor.PrefabType.Prefab)
             {
                 Debug.Log ("object is in project view");
                 return;
-
             }
-
 #endif
-
             if (useSharedMaterial && this.GetComponent<Renderer>() != null)
                 substance = rend.sharedMaterial as ProceduralMaterial;
             else if (!useSharedMaterial && this.GetComponent<Renderer>() != null)
                 substance = rend.material as ProceduralMaterial;
             else
                 Debug.LogWarning("No Renderer on " + this.name);
-
-            //Debug.Log("Awake: " + emissionInput.ToString() + " " + rend.sharedMaterial.GetColor("_EmissionColor").ToString());
             if (useSharedMaterial)
                 emissionInput = rend.sharedMaterial.GetColor("_EmissionColor");
             else
@@ -610,13 +525,9 @@ public class PrefabProperties : MonoBehaviour
                 materialVariables = substance.GetProceduralPropertyDescriptions();
                 if (MaterialVariableKeyframeList.Count > 0)
                 {
-                    // Debug.Log("MaterialVariableKeyframeList.Count: " + MaterialVariableKeyframeList.Count);
                     for (int i = 0; i <= MaterialVariableKeyframeList.Count - 1; i++)
                     {
                         int index;
-                        /*int totalListProperties = MaterialVariableKeyframeList[i].myFloatKeys.Count + MaterialVariableKeyframeList[i].myColorKeys.Count +
-                           MaterialVariableKeyframeList[i].myVector2Keys.Count + MaterialVariableKeyframeList[i].myVector3Keys.Count + MaterialVariableKeyframeList[i].myVector4Keys.Count +
-                        MaterialVariableKeyframeList[i].myBooleanKeys.Count + MaterialVariableKeyframeList[i].myEnumValues.Count;*/
                         MaterialVariableKeyframeDictionaryList.Add(new MaterialVariableDictionaryHolder());
                         MaterialVariableKeyframeDictionaryList[i].PropertyMaterialName = MaterialVariableKeyframeList[0].PropertyMaterialName;
                         for (int j = 0; j < materialVariables.Length; j++)
@@ -662,7 +573,6 @@ public class PrefabProperties : MonoBehaviour
                                     {
                                         substance.SetProceduralColor(materialVariable.name, MaterialVariableKeyframeList[0].myColorValues[MaterialVariableKeyframeList[0].myColorKeys.IndexOf(materialVariable.name)]);
                                     }
-
                                 }
                             }
                             else if (propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4)
@@ -680,7 +590,6 @@ public class PrefabProperties : MonoBehaviour
                                             if (i == 0)
                                                 animatedMaterialVariables.Add(materialVariable);
                                         }
-
                                     }
                                     if (i == 0)
                                     {
@@ -724,7 +633,6 @@ public class PrefabProperties : MonoBehaviour
                                     {
                                         substance.SetProceduralVector(materialVariable.name, MaterialVariableKeyframeList[0].myVector2Values[MaterialVariableKeyframeList[0].myVector2Keys.IndexOf(materialVariable.name)]);
                                     }
-
                                 }
                             }
                             else if (propType == ProceduralPropertyType.Enum)
@@ -745,7 +653,6 @@ public class PrefabProperties : MonoBehaviour
                                 {
                                     substance.SetProceduralEnum(materialVariable.name, MaterialVariableKeyframeList[0].myEnumValues[MaterialVariableKeyframeList[0].myEnumKeys.IndexOf(materialVariable.name)]);
                                 }
-
                             }
                             else if (propType == ProceduralPropertyType.Boolean)
                             {
@@ -774,7 +681,6 @@ public class PrefabProperties : MonoBehaviour
             }
             if (deleteOldListValuesOnStart)
                 MaterialVariableKeyframeList.Clear();
-            //Debug.Log("Awake2: " + emissionInput.ToString() + " "+ rend.sharedMaterial.GetColor("_EmissionColor").ToString());
         }
     }
 }

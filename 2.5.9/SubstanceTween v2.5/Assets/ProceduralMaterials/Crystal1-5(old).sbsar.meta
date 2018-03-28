@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 93cc2c7f79ef6f645b817f30f36e6331
-timeCreated: 1516633356
+timeCreated: 1522239686
 licenseType: Free
 SubstanceImporter:
   externalObjects: {}
@@ -11,14 +11,14 @@ SubstanceImporter:
     prototypeName: Crystal1-5
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    shaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 4
     inputs:
     - name: $outputsize
       value:
-        scalar[0]: 8
-        scalar[1]: 8
+        scalar[0]: 9
+        scalar[1]: 9
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
@@ -41,15 +41,15 @@ SubstanceImporter:
         stringvalue: 
     - name: Base_Color
       value:
-        scalar[0]: 0.0350347
-        scalar[1]: 0.52549
+        scalar[0]: 0.9117647
+        scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 1
         texture: {instanceID: 0}
         stringvalue: 
     - name: Crystal2_Warp
       value:
-        scalar[0]: 0
+        scalar[0]: 48.2
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -57,7 +57,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal2_Opacity
       value:
-        scalar[0]: 1
+        scalar[0]: 0.44
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -65,7 +65,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal_Warp
       value:
-        scalar[0]: 0
+        scalar[0]: 45.8
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -73,7 +73,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal_Disorder
       value:
-        scalar[0]: 0
+        scalar[0]: 40.1
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -81,7 +81,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal_Levelinlow
       value:
-        scalar[0]: 0
+        scalar[0]: 0.049
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -121,7 +121,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal_Opacity
       value:
-        scalar[0]: 0.41
+        scalar[0]: 0.4
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -129,7 +129,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Crystal_Normal_Intensity
       value:
-        scalar[0]: 0
+        scalar[0]: 3
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -185,7 +185,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Grunge_Map5_Balance
       value:
-        scalar[0]: 0.5
+        scalar[0]: 1
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -313,7 +313,7 @@ SubstanceImporter:
         stringvalue: 
     - name: Emission_Output_Color
       value:
-        scalar[0]: 0.166674
+        scalar[0]: 0.16667402
         scalar[1]: 1
         scalar[2]: 0
         scalar[3]: 1
@@ -333,7 +333,7 @@ SubstanceImporter:
       scale: {x: 1, y: 1}
       generateMipmaps: 1
       generateAllOutputs: 0
-      animationUpdateRate: 0
+      animationUpdateRate: 42
     materialProperties:
       serializedVersion: 3
       texEnvs:

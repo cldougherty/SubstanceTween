@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SubstanceTweenScene.unity
+    path: 
     guid: 7ac2b57b0373b394080ad588494006df
   - enabled: 1
     path: Assets/TechDemos/Underwater/SubstanceUnderwater.unity

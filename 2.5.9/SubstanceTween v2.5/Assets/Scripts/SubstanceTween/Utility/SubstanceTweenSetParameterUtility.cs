@@ -4,72 +4,75 @@ using UnityEngine;
 using UnityEditor;
 using System.Linq;
 
-
-
+/// <summary>
+/// Functions for setting Procedural Materials/Variables
+/// </summary>
 public static class SubstanceTweenSetParameterUtility
 {
-    //public SubstanceToolEditor
-    //public static void SetProceduralMaterialBasedOnAnimationTime(SubstanceToolEditor)
-    public static void SetProceduralMaterialBasedOnAnimationTime(float desiredTime, List<MaterialVariableDictionaryHolder> MaterialVariableKeyframeDictionaryList, List<ProceduralPropertyDescription> animatedMaterialVariables, ProceduralMaterial substance,  Renderer rend, PrefabProperties prefabScript,   AnimationCurve substanceCurve,AnimationCurve substanceCurveBackup,   
-      float currentAnimationTime,List<float> keyFrameTimes, float animationTimeRestartEnd, int currentKeyframeIndex, float lerp, Color emissionInput, float flickerFloatCalc, float flickerColor3Calc, float flickerColor4Calc, float flickerVector4Calc, float flickerVector3Calc, float flickerVector2Calc  )
+    public static void SetProceduralMaterialBasedOnAnimationTime(ref float desiredTime,  SubstanceMaterialParams substanceMaterialVariables,  SubstanceAnimationParams substanceAnimationParams ,  SubstanceToolParams substanceToolParams  ,  SubstanceFlickerParams flickerValues  )
     {
-        for (int i = 0; i <= substanceCurveBackup.keys.Count() - 1; i++)
+        for (int i = 0; i <= substanceAnimationParams.substanceCurveBackup.keys.Count() - 1; i++)
         {
-            if (substanceCurveBackup.keys[i].time > desiredTime) // find first key time that is greater than the desiredAnimationTime 
+            if (substanceAnimationParams.substanceCurveBackup.keys[i].time > desiredTime) // find first key time that is greater than the desiredAnimationTime 
             {
-                float newLerp = (desiredTime - substanceCurveBackup.keys[i - 1].time) / (substanceCurveBackup.keys[i].time - substanceCurveBackup.keys[i - 1].time);// Finds point between two keyrames  - finds percentage of desiredtime between substanceCurveBackup.keys[i - 1].time and substanceCurveBackup.keys[i].time 
-                currentAnimationTime = Mathf.Lerp(0, keyFrameTimes[i - 1], newLerp);
-                animationTimeRestartEnd = desiredTime;
-                currentKeyframeIndex = i - 1;
-                if (UnityEditor.EditorWindow.focusedWindow && UnityEditor.EditorWindow.focusedWindow.ToString() != " (UnityEditor.CurveEditorWindow)")
-                    lerp = newLerp;
-                for (int j = 0; j < animatedMaterialVariables.Count(); j++)// search through dictionary for variable names and if they match animate them
+                float newLerp = (desiredTime - substanceAnimationParams.substanceCurveBackup.keys[i - 1].time) / (substanceAnimationParams.substanceCurveBackup.keys[i].time - substanceAnimationParams.substanceCurveBackup.keys[i - 1].time);// Finds point between two keyrames  - finds percentage of desiredtime between substanceCurveBackup.keys[i - 1].time and substanceCurveBackup.keys[i].time 
+                substanceAnimationParams.currentAnimationTime = Mathf.Lerp(0, substanceAnimationParams.keyFrameTimes[i - 1], newLerp);
+                substanceAnimationParams.animationTimeRestartEnd = desiredTime;
+                substanceAnimationParams.currentKeyframeIndex = i - 1;
+                if (EditorWindow.focusedWindow && EditorWindow.focusedWindow.ToString() != " (UnityEditor.CurveEditorWindow)")
+                    substanceAnimationParams.lerp = newLerp;
+                
+                for (int j = 0; j < substanceMaterialVariables.animatedMaterialVariables.Count; j++)// search through dictionary for variable names and if they match animate them
                 {
-                    ProceduralPropertyDescription animatedMaterialVariable = animatedMaterialVariables[j];
-                    ProceduralPropertyType propType = animatedMaterialVariables[j].type;
-                    if (propType == ProceduralPropertyType.Float)
-                        substance.SetProceduralFloat(animatedMaterialVariable.name, Mathf.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyFloatDictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyFloatDictionary[animatedMaterialVariable.name], newLerp * flickerFloatCalc));
-                    else if (propType == ProceduralPropertyType.Color3)
-                        substance.SetProceduralColor(animatedMaterialVariable.name, Color.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyColorDictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyColorDictionary[animatedMaterialVariable.name], newLerp * flickerColor3Calc));
-                    else if (propType == ProceduralPropertyType.Color4)
-                        substance.SetProceduralColor(animatedMaterialVariable.name, Color.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyColorDictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyColorDictionary[animatedMaterialVariable.name], newLerp * flickerColor4Calc));
-                    else if (propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4)
+                    ProceduralPropertyDescription animatedMaterialVariable = substanceMaterialVariables.animatedMaterialVariables[j];
+                    ProceduralPropertyType propType = substanceMaterialVariables.animatedMaterialVariables[j].type;
+                    if (substanceMaterialVariables.materialVariableNames.Contains(animatedMaterialVariable.name))
                     {
-                        if (propType == ProceduralPropertyType.Vector4)
-                            substance.SetProceduralVector(animatedMaterialVariable.name, Vector4.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector4Dictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyVector4Dictionary[animatedMaterialVariable.name], newLerp * flickerVector4Calc));
-                        else if (propType == ProceduralPropertyType.Vector3)
-                            substance.SetProceduralVector(animatedMaterialVariable.name, Vector3.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector3Dictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyVector3Dictionary[animatedMaterialVariable.name], newLerp * flickerVector3Calc));
-                        else if (propType == ProceduralPropertyType.Vector2)
-                            substance.SetProceduralVector(animatedMaterialVariable.name, Vector2.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector2Dictionary[animatedMaterialVariable.name], MaterialVariableKeyframeDictionaryList[i].PropertyVector2Dictionary[animatedMaterialVariable.name], newLerp * flickerVector2Calc));
+                        if (propType == ProceduralPropertyType.Float)
+                        {
+                            substanceMaterialVariables.substance.SetProceduralFloat(animatedMaterialVariable.name, Mathf.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyFloatDictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyFloatDictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerFloatCalc));
+                        }
+                        else if (propType == ProceduralPropertyType.Color3)
+                            substanceMaterialVariables.substance.SetProceduralColor(animatedMaterialVariable.name, Color.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyColorDictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyColorDictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerColor3Calc));
+                        else if (propType == ProceduralPropertyType.Color4)
+                            substanceMaterialVariables.substance.SetProceduralColor(animatedMaterialVariable.name, Color.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyColorDictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyColorDictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerColor4Calc));
+                        else if (propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4)
+                        {
+                            if (propType == ProceduralPropertyType.Vector4)
+                                substanceMaterialVariables.substance.SetProceduralVector(animatedMaterialVariable.name, Vector4.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector4Dictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyVector4Dictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerVector4Calc));
+                            else if (propType == ProceduralPropertyType.Vector3)
+                                substanceMaterialVariables.substance.SetProceduralVector(animatedMaterialVariable.name, Vector3.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector3Dictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyVector3Dictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerVector3Calc));
+                            else if (propType == ProceduralPropertyType.Vector2)
+                                substanceMaterialVariables.substance.SetProceduralVector(animatedMaterialVariable.name, Vector2.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyVector2Dictionary[animatedMaterialVariable.name], substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].PropertyVector2Dictionary[animatedMaterialVariable.name], newLerp * flickerValues.flickerVector2Calc));
+                        }
+                        else if (propType == ProceduralPropertyType.Enum)
+                            substanceMaterialVariables.substance.SetProceduralEnum(animatedMaterialVariable.name, substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyEnumDictionary[animatedMaterialVariable.name]);
+                        else if (propType == ProceduralPropertyType.Boolean)
+                            substanceMaterialVariables.substance.SetProceduralBoolean(animatedMaterialVariable.name, substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].PropertyBoolDictionary[animatedMaterialVariable.name]);
                     }
-                    else if (propType == ProceduralPropertyType.Enum)
-                        substance.SetProceduralEnum(animatedMaterialVariable.name, MaterialVariableKeyframeDictionaryList[i - 1].PropertyEnumDictionary[animatedMaterialVariable.name]);
-                    else if (propType == ProceduralPropertyType.Boolean)
-                        substance.SetProceduralBoolean(animatedMaterialVariable.name, MaterialVariableKeyframeDictionaryList[i - 1].PropertyBoolDictionary[animatedMaterialVariable.name]);
                 }
-                if (rend.sharedMaterial.HasProperty("_EmissionColor"))
+                if (substanceMaterialVariables.rend.sharedMaterial.HasProperty("_EmissionColor"))
                 {
-                    emissionInput = Color.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].emissionColor, MaterialVariableKeyframeDictionaryList[i].emissionColor, newLerp);
-                    rend.sharedMaterial.SetColor("_EmissionColor", emissionInput);
-                    prefabScript.emissionInput = emissionInput;
+                    substanceMaterialVariables.emissionInput = Color.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].emissionColor, substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].emissionColor, newLerp * flickerValues.flickerCalc);
+                    substanceMaterialVariables.rend.sharedMaterial.SetColor("_EmissionColor", substanceMaterialVariables.emissionInput);
+                    substanceToolParams.selectedPrefabScript.emissionInput = substanceMaterialVariables.emissionInput;
                 }
-                if (rend.sharedMaterial.HasProperty("_MainTex"))
-                    rend.sharedMaterial.SetTextureOffset("_MainTex", Vector2.Lerp(MaterialVariableKeyframeDictionaryList[i - 1].MainTex, MaterialVariableKeyframeDictionaryList[i].MainTex, newLerp));
-                substance.RebuildTextures();
+                if (substanceMaterialVariables.rend.sharedMaterial.HasProperty("_MainTex"))
+                    substanceMaterialVariables.rend.sharedMaterial.SetTextureOffset("_MainTex", Vector2.Lerp(substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i - 1].MainTex, substanceMaterialVariables.MaterialVariableKeyframeDictionaryList[i].MainTex, newLerp * flickerValues.flickerCalc));
+                substanceMaterialVariables.substance.RebuildTextures();
                 return;
             }
+           
         }
     }
 
-
-
-    public static void SetProceduralVariablesFromList(MaterialVariableListHolder propertyList, ProceduralMaterial substance, ProceduralPropertyDescription[] materialVariables, bool saveOutputParameters, bool resettingValuesToDefault) // Sets current substance parameters from a List
+    public static void SetProceduralVariablesFromList(MaterialVariableListHolder propertyList, SubstanceMaterialParams substanceMaterialVariables, SubstanceAnimationParams substanceAnimationParams, SubstanceToolParams substanceToolParams) // Sets current substance parameters from a List
     {
-        for (int i = 0; i < materialVariables.Length; i++)
+        for (int i = 0; i < substanceMaterialVariables.materialVariables.Length; i++)
         {
-            ProceduralPropertyDescription materialVariable = materialVariables[i];
-            ProceduralPropertyType propType = materialVariables[i].type;
-            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange) || resettingValuesToDefault))
+            ProceduralPropertyDescription materialVariable = substanceMaterialVariables.materialVariables[i];
+            ProceduralPropertyType propType = substanceMaterialVariables.materialVariables[i].type;
+            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (substanceMaterialVariables.saveOutputParameters && !materialVariable.hasRange) || substanceMaterialVariables.resettingValuesToDefault))
             {
                 if (propertyList.myFloatKeys.Count > 0)
                 {
@@ -78,7 +81,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myFloatKeys[j] == materialVariable.name)
                         {
                             if (propertyList.myFloatKeys[j] == materialVariable.name)
-                                substance.SetProceduralFloat(materialVariable.name, propertyList.myFloatValues[j]);
+                                substanceMaterialVariables.substance.SetProceduralFloat(materialVariable.name, propertyList.myFloatValues[j]);
                         }
                     }
                 }
@@ -89,7 +92,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myKeys[j] == materialVariable.name)
                         {
                             if (propertyList.myKeys[j] == materialVariable.name)
-                                substance.SetProceduralFloat(materialVariable.name, float.Parse(propertyList.myValues[j]));
+                                substanceMaterialVariables.substance.SetProceduralFloat(materialVariable.name, float.Parse(propertyList.myValues[j]));
                         }
                     }
                 }
@@ -103,7 +106,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myColorKeys[j] == materialVariable.name)
                         {
                             Color curColor = propertyList.myColorValues[j];
-                            substance.SetProceduralColor(materialVariable.name, curColor);
+                            substanceMaterialVariables.substance.SetProceduralColor(materialVariable.name, curColor);
                         }
                     }
                 }
@@ -115,12 +118,12 @@ public static class SubstanceTweenSetParameterUtility
                         {
                             Color curColor;
                             ColorUtility.TryParseHtmlString(propertyList.myValues[j], out curColor);
-                            substance.SetProceduralColor(materialVariable.name, curColor);
+                            substanceMaterialVariables.substance.SetProceduralColor(materialVariable.name, curColor);
                         }
                     }
                 }
             }
-            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange) || resettingValuesToDefault))
+            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (substanceMaterialVariables.saveOutputParameters && !materialVariable.hasRange) || substanceMaterialVariables.resettingValuesToDefault))
             {
                 if (propType == ProceduralPropertyType.Vector4)
                 {
@@ -131,7 +134,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myVector4Keys[j] == materialVariable.name)
                             {
                                 Vector4 curVector4 = propertyList.myVector4Values[j];
-                                substance.SetProceduralVector(materialVariable.name, curVector4);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector4);
                             }
                         }
                     }
@@ -142,7 +145,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myKeys[j] == materialVariable.name)
                             {
                                 Vector4 curVector4 = SubstanceTweenMiscUtility.StringToVector(propertyList.myValues[j], 4);
-                                substance.SetProceduralVector(materialVariable.name, curVector4);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector4);
                             }
                         }
                     }
@@ -156,7 +159,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myVector3Keys[j] == materialVariable.name)
                             {
                                 Vector3 curVector3 = propertyList.myVector3Values[j];
-                                substance.SetProceduralVector(materialVariable.name, curVector3);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector3);
                             }
                         }
                     }
@@ -167,7 +170,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myKeys[j] == materialVariable.name)
                             {
                                 Vector3 curVector3 = SubstanceTweenMiscUtility.StringToVector(propertyList.myValues[j], 3);
-                                substance.SetProceduralVector(materialVariable.name, curVector3);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector3);
                             }
                         }
                     }
@@ -181,7 +184,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myVector2Keys[j] == materialVariable.name)
                             {
                                 Vector2 curVector2 = propertyList.myVector2Values[j];
-                                substance.SetProceduralVector(materialVariable.name, curVector2);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector2);
                             }
                         }
                     }
@@ -192,7 +195,7 @@ public static class SubstanceTweenSetParameterUtility
                             if (propertyList.myKeys[j] == materialVariable.name)
                             {
                                 Vector2 curVector2 = SubstanceTweenMiscUtility.StringToVector(propertyList.myValues[j], 2);
-                                substance.SetProceduralVector(materialVariable.name, curVector2);
+                                substanceMaterialVariables.substance.SetProceduralVector(materialVariable.name, curVector2);
                             }
                         }
                     }
@@ -207,7 +210,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myEnumKeys[j] == materialVariable.name)
                         {
                             int curEnum = propertyList.myEnumValues[j];
-                            substance.SetProceduralEnum(materialVariable.name, curEnum);
+                            substanceMaterialVariables.substance.SetProceduralEnum(materialVariable.name, curEnum);
                         }
                     }
                 }
@@ -218,7 +221,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myKeys[j] == materialVariable.name)
                         {
                             int curEnum = int.Parse(propertyList.myValues[j]);
-                            substance.SetProceduralEnum(materialVariable.name, curEnum);
+                            substanceMaterialVariables.substance.SetProceduralEnum(materialVariable.name, curEnum);
                         }
                     }
                 }
@@ -232,7 +235,7 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myBooleanKeys[j] == materialVariable.name)
                         {
                             bool curBool = propertyList.myBooleanValues[j];
-                            substance.SetProceduralBoolean(materialVariable.name, curBool);
+                            substanceMaterialVariables.substance.SetProceduralBoolean(materialVariable.name, curBool);
                         }
                     }
                 }
@@ -244,61 +247,110 @@ public static class SubstanceTweenSetParameterUtility
                         if (propertyList.myKeys[j] == materialVariable.name)
                         {
                             bool curBool = bool.Parse(propertyList.myValues[j]);
-                            substance.SetProceduralBoolean(materialVariable.name, curBool);
+                            substanceMaterialVariables.substance.SetProceduralBoolean(materialVariable.name, curBool);
                         }
                     }
                 }
             }
         }
     }
-    public static void SetAllProceduralValuesToMin(ProceduralMaterial substance, ProceduralPropertyDescription[] materialVariables) // Sets all procedural values to the minimum value
+    public static void SetAllProceduralValuesToMin(SubstanceMaterialParams substanceMaterialParams) // Sets all procedural values to the minimum value
     {
-        UnityEditor.Undo.RegisterCompleteObjectUndo(new UnityEngine.Object[] { substance }, "Set all values to Minimum");
-        for (int i = 0; i < materialVariables.Length; i++)
+        UnityEditor.Undo.RegisterCompleteObjectUndo(new UnityEngine.Object[] { substanceMaterialParams.substance }, "Set all values to Minimum");
+        for (int i = 0; i < substanceMaterialParams.materialVariables.Length; i++)
         {
-            ProceduralPropertyDescription materialVariable = materialVariables[i];
-            if (substance.IsProceduralPropertyVisible(materialVariable.name))
+            ProceduralPropertyDescription materialVariable = substanceMaterialParams.materialVariables[i];
+            if (substanceMaterialParams.substance.IsProceduralPropertyVisible(materialVariable.name))
             {
-                ProceduralPropertyType propType = materialVariables[i].type;
+                ProceduralPropertyType propType =substanceMaterialParams.materialVariables[i].type;
                 if (propType == ProceduralPropertyType.Float)
-                    substance.SetProceduralFloat(materialVariable.name, materialVariables[i].minimum);
+                    substanceMaterialParams.substance.SetProceduralFloat(materialVariable.name, substanceMaterialParams.materialVariables[i].minimum);
                 if (propType == ProceduralPropertyType.Vector2 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector2(materialVariables[i].minimum, materialVariables[i].minimum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector2(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum));
                 if (propType == ProceduralPropertyType.Vector3 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector3(materialVariables[i].minimum, materialVariables[i].minimum, materialVariables[i].minimum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector3(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum));
                 if (propType == ProceduralPropertyType.Vector4 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector4(materialVariables[i].minimum, materialVariables[i].minimum, materialVariables[i].minimum, materialVariables[i].minimum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector4(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].minimum));
                 if (propType == ProceduralPropertyType.Enum)
-                    substance.SetProceduralEnum(materialVariable.name, 0);
+                    substanceMaterialParams.substance.SetProceduralEnum(materialVariable.name, 0);
             }
         }
-       // DebugStrings.Add("Set all properties to the minimum");
-        substance.RebuildTexturesImmediately();
+        substanceMaterialParams.substance.RebuildTexturesImmediately();
     }
 
-    public static void SetAllProceduralValuesToMax(ProceduralMaterial substance, ProceduralPropertyDescription[] materialVariables) // Sets all procedural values to the maximum value
+    public static void SetAllProceduralValuesToMax(SubstanceMaterialParams substanceMaterialParams) // Sets all procedural values to the maximum value
     {
-       UnityEditor.Undo.RegisterCompleteObjectUndo(new UnityEngine.Object[] { substance }, "Set all values to Maximum");
-        for (int i = 0; i < materialVariables.Length; i++)
+       UnityEditor.Undo.RegisterCompleteObjectUndo(new UnityEngine.Object[] { substanceMaterialParams.substance }, "Set all values to Maximum");
+        for (int i = 0; i < substanceMaterialParams.materialVariables.Length; i++)
         {
-            ProceduralPropertyDescription materialVariable = materialVariables[i];
-            if (substance.IsProceduralPropertyVisible(materialVariable.name))
+            ProceduralPropertyDescription materialVariable = substanceMaterialParams.materialVariables[i];
+            if (substanceMaterialParams.substance.IsProceduralPropertyVisible(materialVariable.name))
             {
-                ProceduralPropertyType propType = materialVariables[i].type;
+                ProceduralPropertyType propType = substanceMaterialParams.materialVariables[i].type;
                 if (propType == ProceduralPropertyType.Float)
-                    substance.SetProceduralFloat(materialVariable.name, materialVariables[i].maximum);
+                    substanceMaterialParams.substance.SetProceduralFloat(materialVariable.name, substanceMaterialParams.materialVariables[i].maximum);
                 if (propType == ProceduralPropertyType.Vector2 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector2(materialVariables[i].maximum, materialVariables[i].maximum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector2(substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum));
                 if (propType == ProceduralPropertyType.Vector3 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector3(materialVariables[i].maximum, materialVariables[i].maximum, materialVariables[i].maximum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector3(substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum));
                 if (propType == ProceduralPropertyType.Vector4 && materialVariable.hasRange)
-                    substance.SetProceduralVector(materialVariable.name, new Vector4(materialVariables[i].maximum, materialVariables[i].maximum, materialVariables[i].maximum, materialVariables[i].maximum));
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector4(substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum, substanceMaterialParams.materialVariables[i].maximum));
                 if (propType == ProceduralPropertyType.Enum)
-                    substance.SetProceduralEnum(materialVariable.name, materialVariables[i].enumOptions.Count() - 1);
+                    substanceMaterialParams.substance.SetProceduralEnum(materialVariable.name, substanceMaterialParams.materialVariables[i].enumOptions.Count() - 1);
             }
         }
-        //DebugStrings.Add("Set all properties to the maximum");
-        substance.RebuildTexturesImmediately();
+        substanceMaterialParams.substance.RebuildTexturesImmediately();
     }
-    
+
+    public static void RandomizeProceduralValues(SubstanceMaterialParams substanceMaterialParams, SubstanceRandomizeParams randomizeSettings) // Sets all procedural values to a random value
+    {
+        for (int i = 0; i < substanceMaterialParams.materialVariables.Length; i++)
+        {
+            ProceduralPropertyDescription materialVariable = substanceMaterialParams.materialVariables[i];
+            if (substanceMaterialParams.substance.IsProceduralPropertyVisible(materialVariable.name))
+            {
+                ProceduralPropertyType propType = substanceMaterialParams.materialVariables[i].type;
+                if (propType == ProceduralPropertyType.Float && materialVariable.name[0] != '$' && randomizeSettings.randomizeProceduralFloatToggle)
+                    substanceMaterialParams.substance.SetProceduralFloat(materialVariable.name, UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum));
+                if (propType == ProceduralPropertyType.Color3 && randomizeSettings.randomizeProceduralColorRGBToggle)
+                    substanceMaterialParams.substance.SetProceduralColor(materialVariable.name, new Color(UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f)));
+                if (propType == ProceduralPropertyType.Color4 && randomizeSettings.randomizeProceduralColorRGBAToggle)
+                    substanceMaterialParams.substance.SetProceduralColor(materialVariable.name, new Color(UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f)));
+                if (propType == ProceduralPropertyType.Vector2 && materialVariable.name[0] != '$' && randomizeSettings.randomizeProceduralVector2Toggle)
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector2(UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum)));
+                if (propType == ProceduralPropertyType.Vector3 && randomizeSettings.randomizeProceduralVector3Toggle)
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector3(UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum)));
+                if (propType == ProceduralPropertyType.Vector4 && randomizeSettings.randomizeProceduralVector4Toggle)
+                    substanceMaterialParams.substance.SetProceduralVector(materialVariable.name, new Vector4(UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum), UnityEngine.Random.Range(substanceMaterialParams.materialVariables[i].minimum, substanceMaterialParams.materialVariables[i].maximum)));
+                if (propType == ProceduralPropertyType.Enum && randomizeSettings.randomizeProceduralEnumToggle)
+                    substanceMaterialParams.substance.SetProceduralEnum(materialVariable.name, UnityEngine.Random.Range(0, substanceMaterialParams.materialVariables[i].enumOptions.Count()));
+                if (propType == ProceduralPropertyType.Boolean && randomizeSettings.randomizeProceduralBooleanToggle)
+                    substanceMaterialParams.substance.SetProceduralBoolean(materialVariable.name, (UnityEngine.Random.value > 0.5f));
+            }
+        }
+        substanceMaterialParams.substance.RebuildTexturesImmediately();
+    }
+
+    public static void ResetAllProceduralValues( SubstanceDefaultMaterialParams substanceDefaultMaterialParams, SubstanceMaterialParams substanceMaterialParams, SubstanceAnimationParams animationParams, SubstanceToolParams substanceToolParams   ) // Resets all procedural values to default(When the material was first selected)
+    {
+        for (int i = 0; i <= substanceDefaultMaterialParams.defaultSubstanceObjProperties.Count -1; i++)
+        {
+            if ((substanceMaterialParams.substance.name == substanceDefaultMaterialParams.defaultSubstanceObjProperties[i].PropertyMaterialName) || (substanceMaterialParams.rend.sharedMaterial.name == substanceDefaultMaterialParams.defaultSubstanceObjProperties[i].PropertyMaterialName))
+            {
+                substanceMaterialParams.resettingValuesToDefault = true;
+                SubstanceTweenSetParameterUtility.SetProceduralVariablesFromList(substanceDefaultMaterialParams.defaultSubstanceObjProperties[i], substanceMaterialParams,animationParams,substanceToolParams);
+                substanceMaterialParams.MainTexOffset = substanceDefaultMaterialParams.defaultSubstanceObjProperties[i].MainTex;
+                if (substanceMaterialParams.rend.sharedMaterial.HasProperty("_EmissionColor"))
+                {
+                    substanceMaterialParams.rend.sharedMaterial.EnableKeyword("_EMISSION");
+                    substanceMaterialParams.emissionInput = substanceDefaultMaterialParams.defaultSubstanceObjProperties[i].emissionColor;
+                    substanceMaterialParams.rend.sharedMaterial.SetColor("_EmissionColor", substanceMaterialParams.emissionInput);;
+                    substanceToolParams.selectedPrefabScript.emissionInput = substanceMaterialParams.emissionInput;
+                }
+                substanceMaterialParams.substance.RebuildTexturesImmediately();
+                substanceMaterialParams.resettingValuesToDefault = false;
+                return;
+            }
+        }
+    }
 }

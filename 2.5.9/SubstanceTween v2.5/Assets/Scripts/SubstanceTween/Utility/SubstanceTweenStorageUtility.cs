@@ -3,147 +3,142 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class SubstanceTweenStorageUtility {
-
-    public static void AddProceduralVariablesToList(MaterialVariableListHolder materialVariableList, ProceduralMaterial substance, ProceduralPropertyDescription[] materialVariables,Color emissionInput , Vector2 MainTexOffset, bool saveOutputParameters, float defaultAnimationTime) // Adds current procedural values to a list 
+    /// <summary>
+    /// Functions for storing/converting Procedural variables
+    /// </summary>
+    public static void AddProceduralVariablesToList(MaterialVariableListHolder materialVariableList, SubstanceMaterialParams substanceMaterialParams, SubstanceAnimationParams animationParams, SubstanceToolParams substanceToolParams ) // Adds current procedural values to a list 
     {
-        //DebugStrings.Add("----------------------------------");
-        for (int i = 0; i < materialVariables.Length; i++)
+        for (int i = 0; i <substanceMaterialParams.materialVariables.Length; i++)
         {
-            ProceduralPropertyDescription materialVariable = materialVariables[i];
-            ProceduralPropertyType propType = materialVariables[i].type;
+            ProceduralPropertyDescription materialVariable = substanceMaterialParams.materialVariables[i];
+            ProceduralPropertyType propType = substanceMaterialParams.materialVariables[i].type;
             if (propType != ProceduralPropertyType.Texture) // Texture Type not supported
                 materialVariableList.PropertyName.Add(materialVariable.name);
-            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange)))
+            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (substanceMaterialParams.saveOutputParameters && !materialVariable.hasRange)))
             {
-                float propFloat = substance.GetProceduralFloat(materialVariable.name);
+                float propFloat = substanceMaterialParams.substance.GetProceduralFloat(materialVariable.name);
                 materialVariableList.PropertyFloat.Add(propFloat);
                 materialVariableList.myFloatKeys.Add(materialVariable.name);
                 materialVariableList.myFloatValues.Add(propFloat);
-                //DebugStrings.Add(i + " " + materialVariable.name + ": " + propFloat.ToString());
             }
             else if (propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4)
             {
-                Color propColor = substance.GetProceduralColor(materialVariable.name);
+                Color propColor = substanceMaterialParams.substance.GetProceduralColor(materialVariable.name);
                 materialVariableList.PropertyColor.Add(propColor);
                 materialVariableList.myColorKeys.Add(materialVariable.name);
                 materialVariableList.myColorValues.Add(propColor);
-               // DebugStrings.Add(i + " " + materialVariable.name + ": #" + ColorUtility.ToHtmlStringRGBA(propColor));
             }
-            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange)))
+            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (substanceMaterialParams.saveOutputParameters && !materialVariable.hasRange)))
             {
                 if (propType == ProceduralPropertyType.Vector4)
                 {
-                    Vector4 propVector4 = substance.GetProceduralVector(materialVariable.name);
+                    Vector4 propVector4 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableList.PropertyVector4.Add(propVector4);
                     materialVariableList.myVector4Keys.Add(materialVariable.name);
                     materialVariableList.myVector4Values.Add(propVector4);
-                   // DebugStrings.Add(i + " " + materialVariable.name + ": " + propVector4.ToString());
                 }
                 else if (propType == ProceduralPropertyType.Vector3)
                 {
-                    Vector3 propVector3 = substance.GetProceduralVector(materialVariable.name);
+                    Vector3 propVector3 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableList.PropertyVector3.Add(propVector3);
                     materialVariableList.myVector3Keys.Add(materialVariable.name);
                     materialVariableList.myVector3Values.Add(propVector3);
-                   // DebugStrings.Add(i + " " + materialVariable.name + ": " + propVector3.ToString());
                 }
                 else if (propType == ProceduralPropertyType.Vector2)
                 {
-                    Vector2 propVector2 = substance.GetProceduralVector(materialVariable.name);
+                    Vector2 propVector2 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableList.PropertyVector2.Add(propVector2);
                     materialVariableList.myVector2Keys.Add(materialVariable.name);
                     materialVariableList.myVector2Values.Add(propVector2);
-                   // DebugStrings.Add(i + " " + materialVariable.name + ": " + propVector2.ToString());
                 }
             }
             else if (propType == ProceduralPropertyType.Enum)
             {
-                int propEnum = substance.GetProceduralEnum(materialVariable.name);
+                int propEnum = substanceMaterialParams.substance.GetProceduralEnum(materialVariable.name);
                 materialVariableList.PropertyEnum.Add(propEnum);
                 materialVariableList.myEnumKeys.Add(materialVariable.name);
                 materialVariableList.myEnumValues.Add(propEnum);
             }
             else if (propType == ProceduralPropertyType.Boolean)
             {
-                bool propBool = substance.GetProceduralBoolean(materialVariable.name);
+                bool propBool = substanceMaterialParams.substance.GetProceduralBoolean(materialVariable.name);
                 materialVariableList.PropertyBool.Add(propBool);
                 materialVariableList.myBooleanKeys.Add(materialVariable.name);
                 materialVariableList.myBooleanValues.Add(propBool);
             }
         }
-        materialVariableList.PropertyMaterialName = substance.name;
-        materialVariableList.emissionColor = emissionInput;
-        materialVariableList.MainTex = MainTexOffset;
-        if (saveOutputParameters)
+        materialVariableList.PropertyMaterialName = substanceMaterialParams.substance.name;
+        materialVariableList.emissionColor = substanceMaterialParams.emissionInput;
+        materialVariableList.MainTex = substanceMaterialParams.MainTexOffset;
+        if (substanceMaterialParams.saveOutputParameters)
             materialVariableList.hasParametersWithoutRange = true;
         else
             materialVariableList.hasParametersWithoutRange = false;
-        materialVariableList.animationTime = defaultAnimationTime;
+        materialVariableList.animationTime = animationParams.defaultAnimationTime;
     }
 
-    public static void AddProceduralVariablesToDictionary(MaterialVariableDictionaryHolder materialVariableDictionary, ProceduralMaterial substance, ProceduralPropertyDescription[] materialVariables, Color emissionInput, Vector2 MainTexOffset, bool saveOutputParameters, float defaultAnimationTime) // Adds current procedural values to a dictionary 
+    public static void AddProceduralVariablesToDictionary(MaterialVariableDictionaryHolder materialVariableDictionary, SubstanceMaterialParams substanceMaterialParams, SubstanceAnimationParams animationParams, SubstanceToolParams substanceToolParams) // Adds current procedural values to a dictionary 
     {
-        //DebugStrings.Add("----------------------------------");
-        for (int i = 0; i < materialVariables.Length; i++)
+        for (int i = 0; i < substanceMaterialParams.materialVariables.Length; i++)
         {
-            ProceduralPropertyDescription materialVariable = materialVariables[i];
-            ProceduralPropertyType propType = materialVariables[i].type;
+            ProceduralPropertyDescription materialVariable = substanceMaterialParams.materialVariables[i];
+            ProceduralPropertyType propType = substanceMaterialParams.materialVariables[i].type;
             if (propType != ProceduralPropertyType.Texture)
                 materialVariableDictionary.PropertyName.Add(materialVariable.name);
-            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange)))
+            if (propType == ProceduralPropertyType.Float && (materialVariable.hasRange || (substanceMaterialParams.saveOutputParameters && !materialVariable.hasRange)))
             {
-                float propFloat = substance.GetProceduralFloat(materialVariable.name);
+                float propFloat = substanceMaterialParams.substance.GetProceduralFloat(materialVariable.name);
                 materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propFloat);
                 materialVariableDictionary.PropertyFloatDictionary.Add(materialVariable.name, propFloat);
             }
             else if (propType == ProceduralPropertyType.Color3 || propType == ProceduralPropertyType.Color4)
             {
-                Color propColor = substance.GetProceduralColor(materialVariable.name);
+                Color propColor = substanceMaterialParams.substance.GetProceduralColor(materialVariable.name);
                 materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propColor);
                 materialVariableDictionary.PropertyColorDictionary.Add(materialVariable.name, propColor);
             }
-            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (saveOutputParameters && !materialVariable.hasRange)))
+            else if ((propType == ProceduralPropertyType.Vector2 || propType == ProceduralPropertyType.Vector3 || propType == ProceduralPropertyType.Vector4) && (materialVariable.hasRange || (substanceMaterialParams.saveOutputParameters && !materialVariable.hasRange)))
             {
                 if (propType == ProceduralPropertyType.Vector4)
                 {
-                    Vector4 propVector4 = substance.GetProceduralVector(materialVariable.name);
+                    Vector4 propVector4 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propVector4);
                     materialVariableDictionary.PropertyVector4Dictionary.Add(materialVariable.name, propVector4);
                 }
                 else if (propType == ProceduralPropertyType.Vector3)
                 {
-                    Vector3 propVector3 = substance.GetProceduralVector(materialVariable.name);
+                    Vector3 propVector3 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propVector3);
                     materialVariableDictionary.PropertyVector3Dictionary.Add(materialVariable.name, propVector3);
                 }
                 else if (propType == ProceduralPropertyType.Vector2)
                 {
-                    Vector2 propVector2 = substance.GetProceduralVector(materialVariable.name);
+                    Vector2 propVector2 = substanceMaterialParams.substance.GetProceduralVector(materialVariable.name);
                     materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propVector2);
                     materialVariableDictionary.PropertyVector2Dictionary.Add(materialVariable.name, propVector2);
                 }
             }
             else if (propType == ProceduralPropertyType.Enum)
             {
-                int propEnum = substance.GetProceduralEnum(materialVariable.name);
+                int propEnum = substanceMaterialParams.substance.GetProceduralEnum(materialVariable.name);
                 materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propEnum);
                 materialVariableDictionary.PropertyEnumDictionary.Add(materialVariable.name, propEnum);
             }
             else if (propType == ProceduralPropertyType.Boolean)
             {
-                bool propBool = substance.GetProceduralBoolean(materialVariable.name);
+                bool propBool = substanceMaterialParams.substance.GetProceduralBoolean(materialVariable.name);
                 materialVariableDictionary.PropertyDictionary.Add(materialVariable.name, propBool);
                 materialVariableDictionary.PropertyBoolDictionary.Add(materialVariable.name, propBool);
             }
         }
-        materialVariableDictionary.PropertyMaterialName = substance.name;
-        materialVariableDictionary.emissionColor = emissionInput;
-        materialVariableDictionary.MainTex = MainTexOffset;
-        if (saveOutputParameters)
+        materialVariableDictionary.PropertyMaterialName = substanceMaterialParams.substance.name;
+        materialVariableDictionary.emissionColor = substanceMaterialParams.emissionInput;
+        materialVariableDictionary.MainTex = substanceMaterialParams.MainTexOffset;
+        if (substanceMaterialParams.saveOutputParameters)
             materialVariableDictionary.hasParametersWithoutRange = true;
         else
             materialVariableDictionary.hasParametersWithoutRange = false;
-        materialVariableDictionary.animationTime = defaultAnimationTime;
+        materialVariableDictionary.animationTime = animationParams.defaultAnimationTime;
     }
 
     public static void AddProceduralVariablesToDictionaryFromList(MaterialVariableDictionaryHolder dictionary, MaterialVariableListHolder list, ProceduralPropertyDescription[] materialVariables, bool saveOutputParameters) // sorts items from a list into a dictionary
@@ -241,5 +236,15 @@ public static class SubstanceTweenStorageUtility {
         }
     }
 
-  
+    public static void AddDefaultMaterial(SubstanceMaterialParams substanceMaterialParams, SubstanceAnimationParams animationParams, SubstanceToolParams substanceToolParams, SubstanceDefaultMaterialParams substanceDefaultMaterialParams)
+    {
+        substanceDefaultMaterialParams.defaultSubstanceObjProperties.Add(new MaterialVariableListHolder());
+        substanceDefaultMaterialParams.defaultSubstance = substanceMaterialParams.rend.sharedMaterial as ProceduralMaterial;
+        substanceMaterialParams.materialVariables = substanceMaterialParams.substance.GetProceduralPropertyDescriptions();
+        substanceDefaultMaterialParams.defaultSubstanceObjProperties[animationParams.defaultSubstanceIndex].PropertyMaterialName = substanceDefaultMaterialParams.defaultSubstance.name;
+        SubstanceTweenStorageUtility.AddProceduralVariablesToList(substanceDefaultMaterialParams.defaultSubstanceObjProperties[animationParams.defaultSubstanceIndex], substanceMaterialParams, animationParams, substanceToolParams);
+        substanceDefaultMaterialParams.defaultSubstanceObjProperties[animationParams.defaultSubstanceIndex].MainTex = substanceMaterialParams.MainTexOffset;
+        substanceDefaultMaterialParams.defaultSubstanceObjProperties[animationParams.defaultSubstanceIndex].emissionColor = substanceMaterialParams.emissionInput;
+        animationParams.defaultSubstanceIndex++;
+    }
 }

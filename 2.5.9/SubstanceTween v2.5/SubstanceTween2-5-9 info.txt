@@ -1,5 +1,5 @@
 SubstanceTween v2.5.9
-2/21/2018
+3/28/2018
 Chris Dougherty
 chris.ll.dougherty@gmail.com
 https://www.linkedin.com/in/archarchaic
@@ -40,9 +40,11 @@ Supported exposed parameters
 Instructions to use tool:
 • Open Project
 • Select object with a ProceduralMaterial component attached in the Hierarchy
+• Add ‘SubstanceTool’ component from inspector
 • Press play
-• Open tool (Window>SubstanceTween)
-• Change sliders, create keyframes, save prefab when done.
+
+• Change sliders, create keyframes 
+• When you are ready to save your animated object choose ‘Save-Load’ from the toolbar and select ‘Save Prefab’. It might be a good idea to backup keyframes as XML/JSON files before or after you save a prefab.
 
 Possible future features:
 • Lerp between Position/Rotation/Scale
@@ -51,26 +53,37 @@ Possible future features:
 • Mobile tester: small mobile version where you can edit materials on the go and send XML files/prefabs to a server
 • Save material without creating a prefab: at the moment if all you want to do is change a couple variables without animating them or creating a prefab I would use the default sliders in the inspector view and not use this tool.
 Bugs/Possible Bugs/Other Notes:
-• If you use this tool on an animated prefab in the asset folder and overwrite the prefab you are working on unity can crash.
-• If you use this tool on an animated prefab in the asset folder and create a new prefab the animation can glitch.
+	
+• Error when creating animated prefabs by dragging object to project view from hierarchy instead of using the built in menu.
+• If the icon for an animated prefab is pink, right click it and select ‘Reimport’
 • My material is Pink after I create Prefabs? – This should never happen, if it does manually reapply your ProceduralMaterial on your object and everything should work again.  
 • My material is completely black/white - This should never happen, if it does reset the material (Right click material in inspector view > reset). 
 • The tool is blank! - Select a Procedural material and then select the tool window. If that does not work restart unity or the current scene.
 • In rare cases the Reset button on the tool will not work - try selecting a second object, then the first and try again. if that doesn’t work try setting the value to minimum/maximum and then press reset. If all else fails restart the tool or exit/enter playmode again. The tool saves the material when the tool is first opened in play mode or a material is selected for the first time in play mode.
 • If your XML file is somehow corrupt (0kb file) and you try to read it unity will give you an error saying something like "XmlException: Document element did not appear. Line 1, position 1". If you read a Xml file that is not corrupt after that without restarting the tool your material might look blurry - To fix this, as soon as you read a corrupt xml file restart the tool and read a file that is not corrupt.
 • If a prefab in the scene has any errors or missing data try right clicking the PrefabProperties script and select ‘Revert to prefab’
-* For v2.5 - The animation curve values/keys are not supposed to be manipulated in the editor curve window. Only the tangents are supposed to be manipulated 
 * Unity 2017.1 might crash when displaying dialog boxes after a long period of time. I noticed this was fixed in 2017.1.1p4
 Changelog:
-2.5.9 – 2/21/18 – 2017.2.0f3
+2.5.9 – 2/21/18 – 2017.2.0f3  (2017.3.0 works but gives warnings that can be ignored.   )
 Will make full release notes soon:
 * The tool is now opened by adding a “SubstanceTool” component to an object that has a ProceduralMaterial attached.
 * This tool is now used in the inspector instead of a EditorWindow
-* Replaced Lists with Reorderable lists
-* Optimized Prefabs. 
-* You can now Add LODs to prefabs 
-* Add/Remove Keyframes in the built in curve editor
-
+* Optimization: Broke script up into smaller Utility scripts.
+* Feature: Tool now works while in Edit mode
+* Feature: Can update animated prefab with tool instead of using prefabProperties script
+* Feature: Replaced Lists with Reorderable lists
+* Feature: You can now Add LODs to prefabs 
+* Feature: Add/Remove Keyframes in the built in curve editor
+* Feature: Created gameplay tools (animation trigger, spawn animated prefabs, prefab follow)
+* Feature: Added ability to update parameters for all keyframes.
+* Feature: Added button for deleting all keyframes
+* Feature: Created timeline for scrubbing through animation.
+* Feature: Added scripts for Unit testing. 
+* Optimization: Increased Performance for animated prefabs (removed nested for loops)
+* Optimization: When creating the prefab I delete non animating parameters
+* Optimization: If I choose a preset in the curve editor the window will close.
+* Optimization: Made prefabProperties more user friendly.
+* Fixed Bug: Reading more than 10 keyframes from XML files would mess up the order of keyframes.
 
 
 2.5 – 10/20/17 – Unity 5.6.0f3 / 2017.1.1p4 /2017.2.0f3
